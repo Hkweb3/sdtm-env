@@ -1,0 +1,15 @@
+{
+ "model": "qwen",
+ "task": "MH-02",
+ "attempts": 2,
+ "error": null,
+ "reward": 1.0,
+ "passed": false,
+ "columns_exact": false,
+ "missing_cols": [],
+ "missing_rows": 0,
+ "extra_rows": 0,
+ "col_errors": {},
+ "examples": [],
+ "suspicious": false
+}

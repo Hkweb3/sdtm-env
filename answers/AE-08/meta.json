@@ -1,0 +1,18 @@
+{
+ "task": "AE-08",
+ "domain": "AE",
+ "key": [
+  "USUBJID",
+  "AESPID"
+ ],
+ "style": "compact",
+ "traps": [
+  "partial",
+  "deleted",
+  "dup",
+  "sevcodes"
+ ],
+ "n_subjects": 16,
+ "n_records": 81,
+ "seed": 1007
+}

@@ -1,0 +1,14 @@
+{
+ "model": "kimi",
+ "task": "DR-03",
+ "attempts": 1,
+ "reward": 1.0,
+ "passed": true,
+ "error": null,
+ "tp": 15,
+ "fp": 0,
+ "fn": 0,
+ "col_errors": {},
+ "examples": [],
+ "suspicious": false
+}

@@ -1,0 +1,15 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+PLX-578-189-1276,DM,,"Age 41 at entry (born 1973-03-25, first dose 2014-09-29) violates key inclusion criterion of age >= 50"
+PLX-578-863-2248,EX,3,Placebo subject recorded as receiving XANOMELINE 54 mg at WEEK 24 - treatment/dose inconsistent with randomized arm (unblinding/dosing error)
+PLX-578-927-7566,AE,1,HIATUS HERNIA AE start date 2016-03-25 is after the 2015-11-20 data cutoff and ~22 months after end of treatment (2014-06-02)
+PLX-578-700-1334,LB,38,Albumin 98 g/L at WEEK 2 is physiologically impossible (all other values for subject 34-40 g/L); likely data entry or unit error
+PLX-578-872-2762,LB,79,"Bilirubin 124.83 umol/L at UNSCHEDULED 4.1 (2015-04-01) identical to WEEK 4 value (LBSEQ 130, 2015-04-04); duplicate result carried across visits"
+PLX-578-146-3978,AE,1,RASH MACULO-PAPULAR onset 2014-08-14 precedes first study dose (RFSTDTC 2014-08-23); treatment-emergent AE dated before treatment start
+PLX-578-146-3978,AE,2,RASH PAPULAR onset 2014-08-22 precedes first study dose (RFSTDTC 2014-08-23)
+PLX-578-189-1276,AE,1,WHITE BLOOD CELL COUNT INCREASED onset 2014-09-10 precedes first study dose (RFSTDTC 2014-09-29)
+PLX-578-189-1276,AE,2,NEUTROPHIL COUNT INCREASED onset 2014-09-10 precedes first study dose (RFSTDTC 2014-09-29)
+PLX-578-189-1276,AE,3,URINE ANALYSIS ABNORMAL onset 2014-09-10 precedes first study dose (RFSTDTC 2014-09-29)
+PLX-578-340-5121,AE,1,RASH onset 2014-10-18 precedes first study dose (RFSTDTC 2014-10-29)
+PLX-578-126-3449,AE,6,OEDEMA PERIPHERAL onset 2014-05-04 precedes first study dose (RFSTDTC 2014-05-17)
+PLX-578-165-8767,AE,1,HEADACHE onset 2014-05-02 precedes first study dose (RFSTDTC 2014-05-03)
+PLX-578-340-1532,AE,1,SEASONAL ALLERGY onset 2014-12-10 precedes first study dose (RFSTDTC 2014-12-17)

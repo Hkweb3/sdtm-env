@@ -1,0 +1,8 @@
+{
+ "model": "glm",
+ "task": "OR-02",
+ "attempts": 2,
+ "error": "the script ran but did not write output/findings.csv",
+ "reward": 0.0,
+ "passed": false
+}

@@ -1,0 +1,17 @@
+{
+ "model": "kimi",
+ "task": "OR-09",
+ "turns": 16,
+ "reward": 0.7143,
+ "passed": false,
+ "error": null,
+ "found": 5,
+ "planted": 7,
+ "rows": 24,
+ "col_errors": {
+  "missed SURGICAL_HISTORY_CONFLICT": 1,
+  "missed WRONG_SOC": 1
+ },
+ "examples": [],
+ "suspicious": false
+}

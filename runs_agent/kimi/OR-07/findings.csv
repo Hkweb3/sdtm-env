@@ -1,0 +1,21 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+KVT-953-621-6664,CM,8,"Ditropan XL (oxybutynin, strong anticholinergic) started 2012-11-15 during treatment; prohibited by protocol from first dose to end of treatment"
+KVT-953-673-2526,AE,5,Hip fracture with AESHOSP=Y but AESER=N; hospitalization meets seriousness criteria
+KVT-953-673-2526,AE,6,Gastrointestinal haemorrhage with AESHOSP=Y but AESER=N; hospitalization meets seriousness criteria
+KVT-953-621-6515,AE,7,Pneumonia with AESHOSP=Y but AESER=N; hospitalization meets seriousness criteria
+KVT-953-247-5285,AE,6,Dizziness with AESHOSP=Y but AESER=N; hospitalization meets seriousness criteria
+KVT-953-247-5285,AE,7,Atrial fibrillation with AESHOSP=Y but AESER=N; hospitalization meets seriousness criteria
+KVT-953-621-7547,LB,69,Albumin 4.0 g/L at Week 2 is incompatible with life and inconsistent with subject's other values (~40 g/L); probable unit/decimal error
+KVT-953-673-8148,LB,322,PSA result reported for a female subject; test not applicable to women
+KVT-953-621-9170,CM,3,"Yasmin (oral contraceptive) recorded for a 61-year-old woman; implausible, please verify"
+KVT-953-621-6515,AE,4,"Cough onset 2010-05, ~2 years before first dose (2012-06-27); pre-existing condition belongs in MH, not AE"
+KVT-953-723-3548,AE,1,"Headache onset 2011-10, ~1 year before first dose (2012-11-28); pre-treatment event recorded as AE"
+KVT-953-247-5285,AE,1,Flank pain onset 2013-11-24 precedes first dose 2013-12-04; pre-treatment event recorded as AE
+KVT-953-621-7547,AE,1,Onychomycosis onset 2014-04-18 precedes first dose 2014-04-27; pre-treatment event recorded as AE
+KVT-953-621-7547,AE,2,Cyst onset 2014-04-18 precedes first dose 2014-04-27; pre-treatment event recorded as AE
+KVT-953-673-2526,DM,,AGE=85 inconsistent with BRTHDTC 1926-08-30 and RFSTDTC 2012-08-14 (subject would be 86)
+KVT-953-673-3821,DM,,AGE=82 inconsistent with BRTHDTC 1929-08-30 and RFSTDTC 2012-08-23 (subject would be 83)
+KVT-953-673-2526,EX,2,Last exposure record ends 2012-12-28 but RFENDTC is 2013-01-29; missing exposure record or incorrect end date
+KVT-953-621-9170,EX,2,High-dose subject: 81 mg record ends 2014-05-06 but RFENDTC is 2014-05-20; no Week 24 taper or exposure record for the gap
+KVT-953-621-6515,AE,2,AEOUT=NOT RECOVERED/NOT RESOLVED but AEENDTC 2012-08-20 is populated; outcome and end date inconsistent
+KVT-953-802-1162,DS,2,"FINAL LAB VISIT dated 2012-10-06, before disposition (adverse event) date 2012-10-12 and RFENDTC 2012-10-12"

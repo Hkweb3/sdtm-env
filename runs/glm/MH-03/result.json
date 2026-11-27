@@ -1,0 +1,8 @@
+{
+ "model": "glm",
+ "task": "MH-03",
+ "attempts": 1,
+ "error": "api: IncompleteRead(32768 bytes read, 1152 more expected)",
+ "reward": 0.0,
+ "passed": false
+}

@@ -1,0 +1,8 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+PLX-574-773-6573,LB,150,Potassium 14.5 mmol/L is outside the plausible SI range (1.5-10.0); likely a unit-of-measure or transcription error
+PLX-574-472-2922,AE,1,A seriousness criterion is checked but AESER is not Y
+PLX-574-472-2922,AE,3,A seriousness criterion is checked but AESER is not Y
+PLX-574-567-4422,EX,1,EXTRT 'XANOMELINE' is inconsistent with randomized arm 'Placebo'
+PLX-574-773-6613,AE,12,AE start date 2015-07-03 is after the data cutoff 2014-09-08
+PLX-574-619-6620,DM,,AGE 41 at entry violates the protocol inclusion criterion of age >= 50
+PLX-574-567-4422,AE,5,"AEBODSYS 'PREGNANCY, PUERPERIUM AND PERINATAL CONDITIONS' is implausible for AEDECOD 'APPLICATION SITE PRURITUS'"

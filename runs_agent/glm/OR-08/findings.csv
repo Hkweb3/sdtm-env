@@ -1,0 +1,14 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-316-154-8415,CM,10,"Prohibited medication: ARICEPT (donepezil, cholinesterase inhibitor) started 2014-03-31, ongoing during treatment (2013-12-22 to 2014-05-09); also left UNCODED"
+CTN-316-274-7093,AE,4,Impossible event: DELAYED PUBERTY reported in a subject aged 84 (born 1928)
+CTN-316-274-7093,AE,2,AE start 2011-10-05 predates first dose 2012-07-08; pre-treatment event should not be an AE (or wrong start date)
+CTN-316-444-9050,AE,1,"AE COUGH with onset 2003, 11 years before first dose (2014-01-10); belongs in medical history, not AE"
+CTN-316-443-7595,AE,1,AE ATRIOVENTRICULAR BLOCK SECOND DEGREE start 2013-06-13 predates first dose 2013-06-15
+CTN-316-343-7179,AE,1,AE HEADACHE start 2012-12-27 predates first dose 2012-12-28
+CTN-316-274-7093,AE,3,COLON CANCER severe and hospitalized (AESHOSP=Y) but AESER=N; seriousness criteria inconsistent
+CTN-316-343-7418,AE,1,TIA end 2013-11-20 is after last dose/discontinuation 2013-11-18; also hospitalized (AESHOSP=Y) but AESER=N
+CTN-316-343-4397,AE,5,SYNCOPE hospitalized (AESHOSP=Y) but AESER=N; seriousness criteria inconsistent
+CTN-316-710-9963,AE,9,GASTROENTERITIS VIRAL hospitalized (AESHOSP=Y) but AESER=N; seriousness criteria inconsistent
+CTN-316-343-4397,AE,4,COMPLEX PARTIAL SEIZURES hospitalized (AESHOSP=Y) but AESER=N; seriousness criteria inconsistent
+CTN-316-154-2404,CM,3,Duplicate/conflicting digoxin: LANOXIN 0.5 mg QD on 2013-07-29 overlaps chronic LANOXIN 0.25 mg since 1977 (CMSEQ 2); 0.5 mg QD is high for this age
+CTN-316-710-9963,CM,10,"PROPULSID (cisapride, withdrawn from market) recorded 2013-08-13 to 2013-08-23; verify product/dates"

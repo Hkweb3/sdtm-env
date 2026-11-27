@@ -1,0 +1,67 @@
+{
+ "model": "dsflash",
+ "task": "MH-01",
+ "attempts": 1,
+ "reward": 1.0,
+ "passed": false,
+ "error": null,
+ "columns_exact": true,
+ "missing_cols": [],
+ "missing_rows": 0,
+ "extra_rows": 0,
+ "col_errors": {
+  "STUDYID": 52,
+  "DOMAIN": 52
+ },
+ "examples": [
+  {
+   "key": "DRX-647-185-5406 / MH09",
+   "col": "STUDYID",
+   "expected": "DRX-647",
+   "got": ""
+  },
+  {
+   "key": "DRX-647-185-5406 / MH09",
+   "col": "DOMAIN",
+   "expected": "MH",
+   "got": ""
+  },
+  {
+   "key": "DRX-647-185-5406 / MH10",
+   "col": "STUDYID",
+   "expected": "DRX-647",
+   "got": ""
+  },
+  {
+   "key": "DRX-647-185-5406 / MH10",
+   "col": "DOMAIN",
+   "expected": "MH",
+   "got": ""
+  },
+  {
+   "key": "DRX-647-185-5406 / MH04",
+   "col": "STUDYID",
+   "expected": "DRX-647",
+   "got": ""
+  },
+  {
+   "key": "DRX-647-185-5406 / MH04",
+   "col": "DOMAIN",
+   "expected": "MH",
+   "got": ""
+  },
+  {
+   "key": "DRX-647-185-5406 / MH08",
+   "col": "STUDYID",
+   "expected": "DRX-647",
+   "got": ""
+  },
+  {
+   "key": "DRX-647-185-5406 / MH08",
+   "col": "DOMAIN",
+   "expected": "MH",
+   "got": ""
+  }
+ ],
+ "suspicious": false
+}

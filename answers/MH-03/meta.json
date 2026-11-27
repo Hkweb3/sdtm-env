@@ -1,0 +1,13 @@
+{
+ "task": "MH-03",
+ "domain": "MH",
+ "key": [
+  "USUBJID",
+  "MHSPID"
+ ],
+ "style": "split",
+ "traps": [],
+ "n_subjects": 12,
+ "n_records": 65,
+ "seed": 1012
+}

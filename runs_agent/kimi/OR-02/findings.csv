@@ -1,0 +1,25 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-536-298-2968,DS,1,"Subject died 2010-03-30 (AE SUDDEN DEATH, DTHDTC) but DS records PROTOCOL COMPLETED on 2010-08-06"
+CTN-536-298-2968,EX,2,Dosing recorded through 2010-07-23 although subject died 2010-03-30
+CTN-536-298-2968,EX,3,WEEK 24 dosing 2010-07-24 to 2010-08-05 recorded after subject's death on 2010-03-30
+CTN-536-298-2968,AE,9,FATIGUE onset 2010-04 is after subject's death on 2010-03-30
+CTN-536-298-2968,AE,10,HORDEOLUM onset 2010-05 is after subject's death on 2010-03-30
+CTN-536-298-2968,AE,7,AE end date 2010-04-07 is after subject's death on 2010-03-30
+CTN-536-298-2968,LB,331,"WEEK 26 lab collected 2010-08-06, after subject's death on 2010-03-30"
+CTN-536-298-2968,EX,1,EXDOSE 540 mg at BASELINE; protocol specifies 54 mg for first 2 weeks of High Dose arm (possible decimal error)
+CTN-536-716-1744,DM,,"Same birth date (1926-12-24), age, sex, arm and identical study dates as CTN-536-969-1054; apparent duplicate enrolment of one patient"
+CTN-536-861-3226,DM,,"Birth date 1935-05-15 implies age 74 at screening 2009-09-18, but AGE is recorded as 7"
+CTN-536-581-6697,LB,200,Potassium 0.9 mmol/L at WEEK 12 is incompatible with life; all other values for this subject ~4.0-4.4
+CTN-536-861-6381,LB,38,Albumin 98 g/L at WEEK 2 is physiologically impossible; all other values for this subject are 38-43 g/L
+CTN-536-929-8323,AE,4,SYNCOPE with hospitalisation (AESHOSP=Y) is coded AESER=N; hospitalisation makes it a serious AE
+CTN-536-861-9975,AE,2,AE end date 2009-01-08 is after subject's discontinuation 2009-01-01? verify; also end date inconsistent with NOT RECOVERED outcome
+CTN-536-876-6945,AE,1,"TINNITUS onset 2003-11, ~6 years before first dose 2009-04-29; belongs in medical history, not AE"
+CTN-536-611-6750,AE,1,RASH end date 2010-03-22 is after AE outcome date and after discontinuation 2010-03-14; verify
+CTN-536-611-6750,AE,2,PRURITUS end date 2010-03-22 is after subject's discontinuation on 2010-03-14; verify
+CTN-536-814-3372,DS,2,"FINAL LAB VISIT dated 2010-05-03, before the disposition event (ADVERSE EVENT) dated 2010-06-28"
+CTN-536-814-3372,EX,2,WEEK 2 exposure record has no end date (EXENDTC missing)
+CTN-536-912-7637,EX,2,High Dose arm subject continued on 81 mg only to 2009-05-14 but disposition is 2009-05-27; dosing gap unaccounted
+CTN-536-298-2968,LB,156,"WEEK 8 lab collected 2010-04-01, after subject's death on 2010-03-30"
+CTN-536-298-2968,LB,190,"WEEK 12 lab collected 2010-04-28, after subject's death on 2010-03-30"
+CTN-536-298-2968,LB,275,"WEEK 24 lab collected 2010-07-23, after subject's death on 2010-03-30"
+CTN-536-298-2968,DS,2,"FINAL LAB VISIT dated 2010-08-06, more than 4 months after subject's death on 2010-03-30"

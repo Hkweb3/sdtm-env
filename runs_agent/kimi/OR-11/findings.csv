@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+BRV-592-852-6064,LB,26,Sodium 240 mmol/L at Screening is incompatible with life; likely data entry error (verify value/unit).
+BRV-592-851-1962,CM,11,"Rivastigmine (Exelon patch, a cholinesterase inhibitor) started 2012-05-20 during treatment; prohibited per protocol from first dose to end of treatment."
+BRV-592-234-1302,AE,3,AE 'Application site pruritus' start date 2014-08-20 is after the data cutoff 2014-04-23 and ~2 years after end of treatment (2012-10-23).
+BRV-592-852-1591,AE,7,'Precocious puberty' reported in a 69-year-old man is medically implausible; verify term/coding.
+BRV-592-725-8210,LB,234,"Glucose 26.37 mmol/L at Week 12 is critically high; subject also has outlying glucose 15.9 (Unscheduled, dated 2011-12-28, before first dose 2012-02-05) and 17.5 mmol/L - verify values and the unscheduled lab date."
+BRV-592-852-1591,AE,3,"AE 'Hypercholesterolaemia' with onset 2006 (7 years before first dose 2013-01-10) is medical history, not an adverse event; move to MH."
+BRV-592-852-1703,AE,3,"AE 'Glaucoma' with onset 1991 (~20 years before first dose 2011-11-29) is medical history, not an adverse event; move to MH."
+BRV-592-852-6064,AE,1,"AE 'Atrioventricular block second degree' onset 2013-03-05 is 2 days before first dose (2013-03-07); pre-treatment finding should be MH, and DS says discontinued for protocol violation - reconcile."
+BRV-592-891-7756,AE,3,Syncope with hospitalization (AESHOSP=Y) but AESER=N; hospitalization meets seriousness criteria - reconcile.
+BRV-592-891-7756,AE,1,Syncope with hospitalization (AESHOSP=Y) but AESER=N; hospitalization meets seriousness criteria - reconcile.
+BRV-592-234-2542,AE,5,Benign prostatic hyperplasia with AESHOSP=Y but AESER=N; hospitalization meets seriousness criteria - reconcile.
+BRV-592-234-2542,AE,9,Hypotension with AESHOSP=Y but AESER=N; hospitalization meets seriousness criteria - reconcile.
+BRV-592-891-7756,AE,3,"Second syncope (2012-10-15) recorded while first syncope (AESEQ 1, 2012-10-01) outcome RECOVERED 2012-10-05; AESEQ 3 has no end date and outcome NOT RECOVERED - verify whether same event duplicated."
+BRV-592-312-3815,AE,1,"AE 'Enuresis' onset 2012-07 is ~9 months before first dose (2013-04-01); pre-treatment event should be MH, not AE."
+BRV-592-312-3815,AE,2,AE 'Diarrhoea' onset 2013-03-31 is one day before first dose (2013-04-01); verify date or reclassify as pre-treatment.
+BRV-592-759-9618,AE,1,AE 'Headache' onset 2012-05-14 is one day before first dose (2012-05-15); verify date or reclassify as pre-treatment.
+BRV-592-890-6039,LB,135,"ALT 129 U/L at Week 8 (~3x ULN) - verify result; if correct, confirm no corresponding AE/liver workup recorded."
+BRV-592-759-5866,LB,6,Total bilirubin 27.36 umol/L at Screening is above normal range; verify and confirm eligibility assessment documented.
+BRV-592-796-1933,DM,,AGE recorded as 72 but birth date 1940-03-10 with first dose 2013-03-03 gives age 72 only just before birthday; verify AGE (computed 72 vs 73 discrepancy at reference date).
+BRV-592-852-1591,AE,1,"'Biopsy prostate' is a procedure, not an adverse event; verify whether this belongs in procedures/MH and whether an underlying AE was intended."
+BRV-592-891-8448,MH,10,'Radical prostatectomy' dated 1981 precedes 'Prostate cancer' (2007-11) and 'Biopsy prostate' (2008-07-25); chronology inconsistent - verify dates.
+BRV-592-852-4239,DS,3,'Final retrieval visit' 2012-11-09 occurs ~10 weeks after discontinuation (2012-08-29); verify date/term.
+BRV-592-890-4870,DS,3,'Final retrieval visit' 2013-04-24 occurs ~9 weeks after discontinuation (2013-02-20); verify date/term.
+BRV-592-311-6075,DS,3,'Final retrieval visit' 2013-03-29 occurs 6 months after discontinuation (2012-09-28); verify date/term.
+BRV-592-796-7560,DS,3,'Final retrieval visit' 2013-03-03 occurs ~4.5 months after discontinuation (2012-10-17); verify date/term.

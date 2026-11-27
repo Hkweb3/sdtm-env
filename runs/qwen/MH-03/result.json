@@ -1,0 +1,8 @@
+{
+ "model": "qwen",
+ "task": "MH-03",
+ "attempts": 2,
+ "error": "api: IncompleteRead(65536 bytes read, 45289 more expected)",
+ "reward": 0.0,
+ "passed": false
+}

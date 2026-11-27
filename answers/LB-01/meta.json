@@ -1,0 +1,22 @@
+{
+ "task": "LB-01",
+ "domain": "LB",
+ "key": [
+  "USUBJID",
+  "LBSPID"
+ ],
+ "traps": [
+  "retest"
+ ],
+ "n_subjects": 4,
+ "n_records": 372,
+ "seed": 2004,
+ "out": "lb.csv",
+ "free": [
+  "LBORRES",
+  "LBORRESU",
+  "LBORNRLO",
+  "LBORNRHI",
+  "VISIT"
+ ]
+}

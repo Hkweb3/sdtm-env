@@ -1,0 +1,12 @@
+{
+ "task": "DM-01",
+ "domain": "DM",
+ "key": [
+  "USUBJID"
+ ],
+ "style": "dmy_text",
+ "traps": [],
+ "n_subjects": 12,
+ "n_records": 12,
+ "seed": 1015
+}

@@ -1,0 +1,15 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-452-118-2441,MH,11,MH date impossible: malignant tumour excision dated 1923 but subject born 1929-09-22
+DRX-452-708-2952,AE,5,Application-site erythema onset 2012-01-22 precedes first patch dose 2012-02-01; impossible before exposure
+DRX-452-548-7889,LB,234,Critical hyperglycaemia: glucose 26.4 mmol/L at WEEK 12 (2012-06-05); no diabetes history in MH and no corresponding AE
+DRX-452-548-7889,CM,2,"Glyburide (antidiabetic) started 2012-06-23 and ongoing, but no diabetes diagnosis in MH or AE to support indication"
+DRX-452-708-6699,LB,178,"Glucose 16.7 mmol/L (severe hyperglycaemia) on 2013-07-06, same day hypoglycaemia AE (AESEQ 6) reported; inconsistent"
+DRX-452-708-2952,AE,4,Prostate cancer diagnosed on study 2012-06-01 but AESER=N and not flagged serious; malignancy requires serious assessment/query
+DRX-452-273-4264,AE,2,"Pruritus onset 2011-03-29, ~9 months before first dose 2011-12-31; pre-treatment condition wrongly recorded as AE"
+DRX-452-759-8552,AE,1,"Rash maculo-papular onset 2012-10-02, before first dose 2012-10-11; pre-treatment event recorded as AE"
+DRX-452-759-8552,AE,2,"Rash papular onset 2012-10-10, before first dose 2012-10-11; pre-treatment event recorded as AE"
+DRX-452-118-2287,AE,1,"Headache onset 2012-06-20, before first dose 2012-06-21; pre-treatment event recorded as AE"
+DRX-452-118-9419,AE,4,"Arthritis with onset year 1976 is a pre-existing condition (should be MH, not AE); incomplete onset date"
+DRX-452-760-1404,AE,3,Dermatitis atopic onset 1981 is pre-existing and already in MH (MHSEQ 1); duplicate/wrong domain as AE
+DRX-452-118-7523,LB,85,Creatinine 176.8 umol/L (~2x ULN) repeated WEEK 2/4/8 with no renal AE or dose action; query unreported renal impairment
+DRX-452-118-2287,LB,81,"Sodium 129 mmol/L at WEEK 2, repeated 129-130 across WEEK 6 and unscheduled visit, with no corresponding AE"

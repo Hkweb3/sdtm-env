@@ -1,0 +1,19 @@
+{
+ "model": "glm",
+ "task": "OR-13",
+ "turns": 16,
+ "reward": 0.375,
+ "passed": false,
+ "error": null,
+ "found": 3,
+ "planted": 8,
+ "rows": 16,
+ "col_errors": {
+  "missed ABSENT_ORGAN": 2,
+  "missed SEX_SPECIFIC_MH": 1,
+  "missed SURGICAL_HISTORY_CONFLICT": 1,
+  "missed WRONG_SOC": 1
+ },
+ "examples": [],
+ "suspicious": false
+}

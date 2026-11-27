@@ -1,0 +1,26 @@
+{
+ "task": "OR-14",
+ "domain": "OR",
+ "kind": "open_review",
+ "out": "findings.csv",
+ "cap": 25,
+ "n_subjects": 28,
+ "n_records": 9,
+ "seed": 4201,
+ "types": [
+  "ABSENT_ORGAN",
+  "AE_LAB_CONTRADICTION",
+  "APP_SITE_BEFORE_PATCH",
+  "SEX_SPECIFIC_MH",
+  "MH_BEFORE_BIRTH",
+  "AE_LAB_CONTRADICTION",
+  "AGE_INAPPROPRIATE_AE",
+  "SEX_SPECIFIC_AE",
+  "SEX_SPECIFIC_CM"
+ ],
+ "key": [
+  "USUBJID",
+  "DOMAIN",
+  "SEQ"
+ ]
+}

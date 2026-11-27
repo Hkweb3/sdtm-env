@@ -1,0 +1,16 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+KVT-953-621-6664,CM,8,Prohibited strong anticholinergic DITROPAN XL (oxybutynin) started 2012-11-15 and ongoing throughout treatment (2012-11-05 to 2012-12-29)
+KVT-953-621-9170,CM,3,YASMIN (oral contraceptive) recorded for 61-year-old male subject; implausible medication/possible data entry error
+KVT-953-673-8148,LB,322,PSA result reported for 80-year-old female subject; test not applicable to women
+KVT-953-621-7547,LB,69,"Albumin 4.0 g/L at WEEK 2 is incompatible with life; all other results 37-48 g/L, likely unit or decimal error (4.0 g/dL)"
+KVT-953-247-5285,AE,1,AE FLANK PAIN start 2013-11-24 predates first dose (RFSTDTC 2013-12-04); pre-treatment event reported as AE
+KVT-953-621-7547,AE,1,AE ONYCHOMYCOSIS start 2014-04-18 predates first dose (RFSTDTC 2014-04-27); pre-treatment event reported as AE
+KVT-953-621-7547,AE,2,AE CYST start 2014-04-18 predates first dose (RFSTDTC 2014-04-27); pre-treatment event reported as AE
+KVT-953-621-6515,AE,4,AE COUGH start 2010-05 is two years before first dose (2012-06-27); pre-existing condition reported as AE
+KVT-953-723-3548,AE,1,AE HEADACHE start 2011-10 is one year before first dose (2012-11-28); pre-treatment event reported as AE
+KVT-953-621-6664,AE,10,INFANTILE COLIC reported as AE in an 84-year-old male; implausible diagnosis for this subject
+KVT-953-247-5285,AE,4,Ventricular septal defect (congenital anomaly) reported as adverse event in a 77-year-old subject; implausible as treatment-emergent AE
+KVT-953-621-6664,AE,3,APPLICATION SITE IRRITATION has end date 2012-12-01 but outcome NOT RECOVERED/NOT RESOLVED; end date and outcome conflict
+KVT-953-673-2526,DS,2,"FINAL LAB VISIT recorded 2012-12-03, 57 days before disposition/discontinuation 2013-01-29; last LB record also 2012-12-03"
+KVT-953-621-6664,CM,2,"Duplicate ASPIRIN record: ongoing since 2013-04-04 while CMSEQ 1 (ASPIRIN since 2011, no end date) is still ongoing"
+KVT-953-621-7632,AE,8,Second URTICARIA record starting 2013-02-24 while AESEQ 5 URTICARIA (start 2013-02-07) is still ongoing with no end date; possible duplicate episode

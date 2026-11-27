@@ -1,0 +1,67 @@
+{
+ "model": "qwen",
+ "task": "DM-05",
+ "attempts": 2,
+ "error": null,
+ "reward": 0.8462,
+ "passed": false,
+ "columns_exact": true,
+ "missing_cols": [],
+ "missing_rows": 0,
+ "extra_rows": 0,
+ "col_errors": {
+  "SEX": 24,
+  "RACE": 24
+ },
+ "examples": [
+  {
+   "key": "MRN-319-203-4111",
+   "col": "SEX",
+   "expected": "M",
+   "got": "1"
+  },
+  {
+   "key": "MRN-319-203-4111",
+   "col": "RACE",
+   "expected": "WHITE",
+   "got": "1"
+  },
+  {
+   "key": "MRN-319-203-7339",
+   "col": "SEX",
+   "expected": "M",
+   "got": "1"
+  },
+  {
+   "key": "MRN-319-203-7339",
+   "col": "RACE",
+   "expected": "WHITE",
+   "got": "1"
+  },
+  {
+   "key": "MRN-319-203-7700",
+   "col": "SEX",
+   "expected": "M",
+   "got": "1"
+  },
+  {
+   "key": "MRN-319-203-7700",
+   "col": "RACE",
+   "expected": "WHITE",
+   "got": "1"
+  },
+  {
+   "key": "MRN-319-333-6735",
+   "col": "SEX",
+   "expected": "F",
+   "got": "2"
+  },
+  {
+   "key": "MRN-319-333-6735",
+   "col": "RACE",
+   "expected": "WHITE",
+   "got": "1"
+  }
+ ],
+ "suspicious": false
+}

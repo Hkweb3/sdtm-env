@@ -1,0 +1,25 @@
+{
+ "task": "OR-03",
+ "domain": "OR",
+ "kind": "open_review",
+ "out": "findings.csv",
+ "cap": 25,
+ "n_subjects": 24,
+ "n_records": 8,
+ "seed": 4002,
+ "types": [
+  "SEX_SPECIFIC_AE",
+  "SEX_SPECIFIC_AE",
+  "WRONG_SOC",
+  "WRONG_SOC",
+  "AFTER_CUTOFF",
+  "UNDERAGE",
+  "IMPOSSIBLE_LAB",
+  "ARM_MISMATCH"
+ ],
+ "key": [
+  "USUBJID",
+  "DOMAIN",
+  "SEQ"
+ ]
+}

@@ -1,0 +1,21 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-503-663-9284,AE,1,COMPLETED SUICIDE with fatal outcome (AESDTH=Y) is not marked as serious (AESER=N); a death must be an SAE
+DRX-503-437-3283,CM,7,OLANZAPINE started 2014-04-09 during treatment; olanzapine has strong anticholinergic activity and is prohibited by the protocol
+DRX-503-663-7088,CM,6,SINEMET (levodopa/carbidopa) started 2013-10-13 during treatment; suggests undisclosed parkinsonism and dopaminergic therapy is inconsistent with this Alzheimer's trial
+DRX-503-395-5527,DS,3,"FINAL RETRIEVAL VISIT dated 2014-03-29, ~5 months after the subject discontinued on 2013-11-02; implausible date"
+DRX-503-946-8358,DS,3,"FINAL RETRIEVAL VISIT dated 2014-06-25, ~4.5 months after discontinuation on 2014-02-06; implausible date"
+DRX-503-396-5659,DS,3,"FINAL RETRIEVAL VISIT dated 2014-04-30, ~3 months after withdrawal on 2014-02-05; implausible date"
+DRX-503-663-9284,DS,2,"FINAL LAB VISIT dated 2015-07-08, one month before death on 2015-08-08; verify date (subject was on study until death)"
+DRX-503-156-3949,AE,8,"DYSPEPSIA onset 2012-11, ~18 months before first dose 2014-05-30; pre-existing condition belongs in MH, not AE"
+DRX-503-677-4027,AE,1,"DIZZINESS onset 1995-01, ~19 years before first dose 2014-02-05; pre-existing condition belongs in MH, not AE"
+DRX-503-156-3949,AE,9,"DEPRESSED MOOD onset 2014-05-05, before first dose 2014-05-30; verify date or record as medical history"
+DRX-503-663-3449,AE,11,"APPLICATION SITE IRRITATION onset 2014-07-20, 11 days before first dose 2014-07-31; a patch-site reaction cannot precede first patch application"
+DRX-503-946-8358,LB,38,"UNSCHEDULED 1.1 lab panel drawn 2013-12-28, 11 days before first dose 2014-01-08; verify date or visit assignment"
+DRX-503-324-5161,LB,38,"UNSCHEDULED 1.1 lab panel drawn 2013-12-08, 7 days before first dose 2013-12-15; verify date or visit assignment"
+DRX-503-156-9817,LB,40,"UNSCHEDULED 1.1 lab panel drawn 2014-10-13, 5 days before first dose 2014-10-18; verify date or visit assignment"
+DRX-503-156-9817,AE,9,FATIGUE AESTDTC '2014-12' is partial; AE start dates should be complete
+DRX-503-395-5527,AE,2,"BUNDLE BRANCH BLOCK RIGHT (moderate, possibly related) NOT RECOVERED with no end date and no SAE flag; confirm outcome and seriousness assessment"
+DRX-503-663-9284,EX,2,Placebo subject's last EX record ends 2015-08-08 (date of death) with no dose reduction/interruption record; confirm exposure up to death is correctly documented
+DRX-503-795-5231,AE,2,"OEDEMA PERIPHERAL onset 2015-02-05, 9 days before discontinuation for adverse event on 2015-02-14, but AEOUT is NOT RECOVERED with no end date; confirm this is the AE leading to discontinuation"
+DRX-503-437-5590,CM,15,MAALOX start 2014-03-22 with no end date and dose 30 mL PRN; confirm whether ongoing at end of study
+DRX-503-572-4496,CM,1,CLARITIN (loratadine) recorded as UNCODED; recode before database lock

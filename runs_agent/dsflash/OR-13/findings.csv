@@ -1,0 +1,8 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-503-437-3283,CM,7,Prohibited medication: OLANZAPINE (strong anticholinergic) started 2014-04-09 during treatment
+DRX-503-156-3949,AE,8,AE DYSPEPSIA start date 2012-11 precedes first dose (RFSTDTC 2014-05-30) by ~1.5 years
+DRX-503-156-3949,AE,9,AE DEPRESSED MOOD start date 2014-05-05 precedes first dose (RFSTDTC 2014-05-30)
+DRX-503-663-3449,AE,11,AE APPLICATION SITE IRRITATION start 2014-07-20 precedes first dose (RFSTDTC 2014-07-31)
+DRX-503-156-9817,LB,68,Implausible glucose 16.71 mmol/L (~301 mg/dL)
+DRX-503-663-9284,DM,,Subject died 2015-08-08 (DTHFL=Y) but no death AE/DS record reported
+DRX-503-156-9817,LB,6,Total bilirubin 39.33 umol/L markedly elevated

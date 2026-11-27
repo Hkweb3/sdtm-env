@@ -1,0 +1,15 @@
+{
+ "task": "MH-04",
+ "domain": "MH",
+ "key": [
+  "USUBJID",
+  "MHSPID"
+ ],
+ "style": "iso",
+ "traps": [
+  "deleted"
+ ],
+ "n_subjects": 12,
+ "n_records": 80,
+ "seed": 1013
+}

@@ -1,0 +1,25 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-502-854-2404,AE,9,AESHOSP=Y but AESER=N: hospitalization-requiring event not flagged serious
+CTN-502-854-2404,AE,5,AESHOSP=Y but AESER=N: hospitalization-requiring event not flagged serious
+CTN-502-633-3563,AE,5,AESHOSP=Y but AESER=N: hospitalization-requiring event not flagged serious
+CTN-502-633-3563,AE,4,AESHOSP=Y but AESER=N: hospitalization-requiring event not flagged serious
+CTN-502-417-5902,AE,1,"AE DIZZINESS start 1995-05 predates first dose 2014-05-31 by ~19 years; likely medical history, not an AE"
+CTN-502-633-9728,AE,4,AE ARTHRITIS start 1978 predates first dose 2014-12-17; pre-existing condition reported as AE
+CTN-502-744-8993,AE,3,AE LOCALISED INFECTION start 2013-08-07 predates first dose 2013-10-07
+CTN-502-750-6085,AE,1,AE start 2014-08-06 predates first dose 2014-08-25
+CTN-502-750-6085,AE,2,AE start 2014-08-06 predates first dose 2014-08-25
+CTN-502-750-6085,AE,3,AE start 2014-08-06 predates first dose 2014-08-25
+CTN-502-775-4673,AE,1,AE RASH start 2014-09-13 predates first dose 2014-09-24
+CTN-502-455-5604,AE,9,AE APPLICATION SITE ERYTHEMA start 2014-05-26 predates first dose 2014-06-06
+CTN-502-854-2404,AE,4,"CYSTOSCOPY is a procedure, not an adverse event"
+CTN-502-854-5064,AE,8,"SKIN LESION EXCISION is a procedure, not an adverse event"
+CTN-502-647-7108,AE,3,VENTRICULAR SEPTAL DEFECT is a congenital defect; implausible as new-onset AE in an elderly subject
+CTN-502-455-5604,DS,1,DS FINAL LAB VISIT 2014-12-04 precedes last dose EXENDTC 2014-12-05
+CTN-502-744-3307,CM,2,"CM ESTROGEN NOS start 1961 in a female; implausibly long duration, verify"
+CTN-502-744-9497,CM,3,"CM POTASSIUM start 1986, no end date; verify ongoing status"
+CTN-502-633-6187,CM,3,"CM SYNTHROID start 1995, no end date; verify ongoing status"
+CTN-502-744-3307,CM,3,"CM EX-LAX start 2002, no end date; verify ongoing status"
+CTN-502-633-9728,CM,3,"CM SYNTHROID start 2011, no end date; verify ongoing status"
+CTN-502-744-5926,CM,8,"CM SYNTHROID start 2010, no end date; verify ongoing status"
+CTN-502-744-8993,CM,3,"CM LISINOPRIL start 2007, no end date; verify ongoing status"
+CTN-502-775-9379,CM,2,"CM HYDROCHLOROTHIAZIDE start 1996, no end date; verify ongoing status"

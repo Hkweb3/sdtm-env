@@ -1,0 +1,13 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-817-702-1835,DM,,age 41 below the protocol minimum 50
+DRX-817-700-7395,DM,,same birth date and sex as another subject; possible duplicate enrollment
+DRX-817-718-5619,DM,,same birth date and sex as another subject; possible duplicate enrollment
+DRX-817-946-5027,AE,16,VAGINAL HAEMORRHAGE in a M subject
+DRX-817-217-1156,AE,5,AE start after data cutoff
+DRX-817-252-1275,AE,5,"VOMITING coded to PREGNANCY, PUERPERIUM AND PERINATAL CONDITIONS"
+DRX-817-409-6188,EX,3,dose 540 does not match arm Xanomeline High Dose
+DRX-817-108-2195,EX,3,dose 54 does not match arm Placebo
+DRX-817-108-9428,LB,19,K 14.5 is not compatible with life
+DRX-817-702-9936,LB,283,SODIUM 240 is not compatible with life
+DRX-817-702-1004,LB,87,GLUC nan is not compatible with life
+DRX-817-252-5217,LB,134,lab collected after the recorded death date

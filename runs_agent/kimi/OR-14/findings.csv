@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-452-273-4264,AE,2,"PRURITUS AE start 2011-03-29 is ~9 months before first dose (RFSTDTC 2011-12-31); pre-treatment event belongs in medical history, not AE"
+DRX-452-708-2952,AE,5,APPLICATION SITE ERYTHEMA start 2012-01-22 precedes first dose 2012-02-01; application-site reaction cannot predate study patch
+DRX-452-759-8552,AE,1,RASH MACULO-PAPULAR start 2012-10-02 precedes first dose 2012-10-11; AE dated before treatment start
+DRX-452-759-8552,AE,2,RASH PAPULAR start 2012-10-10 precedes first dose 2012-10-11
+DRX-452-118-2287,AE,1,HEADACHE start 2012-06-20 precedes first dose 2012-06-21
+DRX-452-548-2810,AE,2,TRANSIENT ISCHAEMIC ATTACK with AESHOSP=Y but AESER=N; hospitalization makes this an SAE
+DRX-452-361-9770,AE,9,GASTROENTERITIS VIRAL with AESHOSP=Y but AESER=N; inconsistent seriousness flags
+DRX-452-273-4264,AE,3,COLON CANCER with AESHOSP=Y but AESER=N; new malignancy with hospitalization should be serious
+DRX-452-708-6319,AE,1,MALIGNANT FIBROUS HISTIOCYTOMA recorded as non-serious (AESER=N); new malignancy is an SAE
+DRX-452-708-2952,AE,4,PROSTATE CANCER recorded as non-serious (AESER=N); new malignancy should be an SAE
+DRX-452-361-9770,CM,10,PROPULSID (cisapride) started 2013-02-04 during treatment; drug withdrawn from market in 2000 - verify drug name/dates
+DRX-452-361-9770,CM,8,PREMPRO (conjugated estrogens/medroxyprogesterone) newly started 2013-02-21 in an 83-year-old; implausible HRT initiation - verify
+DRX-452-708-6699,CM,9,YASMIN (drospirenone/ethinylestradiol oral contraceptive) recorded for a 72-year-old woman; implausible - verify
+DRX-452-548-7889,LB,47,"Creatinine 176.8 umol/L at UNSCHEDULED 1.1 on 2012-02-03, before first dose 2012-03-13 and elevated; verify date/value"
+DRX-452-118-7523,LB,155,Creatinine 176.8 umol/L at WEEK 8 (same value at WEEK 4 and WEEK 6) vs 150.28 at screening; repeated identical high values - verify
+DRX-452-273-2309,LB,222,Albumin 26 g/L at WEEK 20 with persistently low values (28-29 g/L since WEEK 4); marked hypoalbuminemia - verify
+DRX-452-708-1615,LB,13,Creatinine 150.28 umol/L at SCREENING in a 78-year-old woman; elevated at entry - verify eligibility
+DRX-452-386-1770,DS,3,"FINAL RETRIEVAL VISIT dated 2013-06-05, 6 months after discontinuation 2012-12-06; implausible interval - verify date"
+DRX-452-782-1317,DS,3,"FINAL RETRIEVAL VISIT dated 2012-10-14, ~9 months after discontinuation 2012-01-22; implausible interval - verify date"
+DRX-452-760-1404,AE,7,APPLICATION SITE DERMATITIS (2012-09-07) duplicates same-term AESEQ 6 (2012-09-03) and AESEQ 5 (2012-08-19); possible duplicate AE records
+DRX-452-361-9770,AE,7,"DYSPEPSIA (start 2013-01-04, ongoing) overlaps same-term AESEQ 2 (2012-12-14); possible duplicate AE record"
+DRX-452-760-1204,AE,8,"APPLICATION SITE IRRITATION (start 2012-10-08, no end date) overlaps same-term AESEQ 3 (2012-07-07); possible duplicate AE record"
+DRX-452-118-9419,CM,2,"ATIVAN (lorazepam) started 2013-05-06, no end date, in 76-year-old with dementia; chronic benzodiazepine use - verify indication/duration"
+DRX-452-816-6806,CM,1,"ATIVAN (lorazepam) started 2013-06-19, ongoing, in 84-year-old with dementia - verify indication/duration"
+DRX-452-760-1404,AE,12,HYPERTENSION end date 2012-12-21 equals RFENDTC but outcome NOT RECOVERED/NOT RESOLVED; clarify whether ongoing at study end

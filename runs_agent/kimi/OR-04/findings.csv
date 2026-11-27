@@ -1,0 +1,16 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-934-241-2050,EX,3,"Subject died 2012-06-14 (sudden death) but placebo dosing recorded 2012-09-29 to 2012-10-20, after death"
+DRX-934-241-2050,EX,2,Dosing interval 2012-05-04 to 2012-09-28 extends past death date 2012-06-14
+DRX-934-241-2050,DS,1,Disposition is PROTOCOL COMPLETED on 2012-10-20 but subject died 2012-06-14 (DM.DTHFL=Y); should be DEATH
+DRX-934-241-2050,LB,345,"WEEK 26 labs drawn 2012-10-20, over 4 months after death 2012-06-14 (all visits from Week 8 onward post-date death)"
+DRX-934-891-1905,EX,1,EXDOSE 540 mg at BASELINE is 10x the protocol dose of 54 mg for Low Dose arm; probable decimal/entry error
+DRX-934-336-2971,AE,6,AE start date 2014-01-21 is after the 2013-10-05 data cutoff and ~17 months after study end 2012-08-03
+DRX-934-617-5709,LB,38,Albumin 98 g/L is physiologically implausible (all other values 35-40 g/L); probable entry error
+DRX-934-783-8157,LB,108,Albumin 4 g/L is incompatible with life (other values 39-45 g/L); probable entry error for 40
+DRX-934-708-9981,DM,,"Apparent duplicate of DRX-934-241-6348 (same birth date, age, sex, arm, RFSTDTC/RFENDTC) and has no EX, DS, AE or LB data"
+DRX-934-783-2162,AE,1,"DIZZINESS onset 1993-06, ~19 years before first dose 2012-06-20; belongs in medical history, not AE"
+DRX-934-241-6348,AE,3,"GLAUCOMA onset 1991, ~20 years before first dose 2011-11-02; belongs in medical history, not AE"
+DRX-934-336-2971,AE,1,APPLICATION SITE PRURITUS onset 2012-05-11 is 2 days before first patch application 2012-05-13; impossible for a patch-site reaction
+DRX-934-805-7986,AE,1,HYPERTENSION onset 2011-09-12 is ~6 months before first dose 2012-03-18; pre-existing condition recorded as AE
+DRX-934-963-6848,AE,2,PRURITUS onset 2011-01-24 is ~9 months before first dose 2011-10-28; pre-treatment event recorded as AE
+DRX-934-963-6848,LB,38,Bilirubin result (LBSTRESN) is missing for WEEK 2 sample while rest of panel is reported

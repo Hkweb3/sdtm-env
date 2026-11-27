@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-934-241-2050,DS,1,Subject died (2012-06-14) but disposition is COMPLETED on 2012-10-20
+DRX-934-241-2050,EX,2,Dosing continues to 2012-09-28 after death date 2012-06-14
+DRX-934-241-2050,EX,3,Dosing starts 2012-09-29 after death date 2012-06-14
+DRX-934-241-2050,LB,171,Lab collected 2012-06-16T10:55 after death date 2012-06-14
+DRX-934-241-2050,LB,173,Lab collected 2012-06-16T10:55 after death date 2012-06-14
+DRX-934-241-2050,LB,176,Lab collected 2012-06-16T10:55 after death date 2012-06-14
+DRX-934-241-2050,LB,179,Lab collected 2012-06-16T10:55 after death date 2012-06-14
+DRX-934-241-2050,LB,182,Lab collected 2012-06-16T10:55 after death date 2012-06-14
+DRX-934-241-2050,LB,185,Lab collected 2012-06-16T10:55 after death date 2012-06-14
+DRX-934-241-2050,LB,188,Lab collected 2012-06-16T10:55 after death date 2012-06-14
+DRX-934-241-2050,LB,194,Lab collected 2012-06-16T10:55 after death date 2012-06-14
+DRX-934-241-2050,LB,201,Lab collected 2012-07-14T10:30 after death date 2012-06-14
+DRX-934-241-2050,LB,203,Lab collected 2012-07-14T10:30 after death date 2012-06-14
+DRX-934-241-2050,LB,206,Lab collected 2012-07-14T10:30 after death date 2012-06-14
+DRX-934-241-2050,LB,209,Lab collected 2012-07-14T10:30 after death date 2012-06-14
+DRX-934-241-2050,LB,213,Lab collected 2012-07-14T10:30 after death date 2012-06-14
+DRX-934-241-2050,LB,216,Lab collected 2012-07-14T10:30 after death date 2012-06-14
+DRX-934-241-2050,LB,219,Lab collected 2012-07-14T10:30 after death date 2012-06-14
+DRX-934-241-2050,LB,226,Lab collected 2012-07-14T10:30 after death date 2012-06-14
+DRX-934-241-2050,LB,236,Lab collected 2012-08-11T11:35 after death date 2012-06-14
+DRX-934-241-2050,LB,238,Lab collected 2012-08-11T11:35 after death date 2012-06-14
+DRX-934-241-2050,LB,241,Lab collected 2012-08-11T11:35 after death date 2012-06-14
+DRX-934-241-2050,LB,244,Lab collected 2012-08-11T11:35 after death date 2012-06-14
+DRX-934-241-2050,LB,247,Lab collected 2012-08-11T11:35 after death date 2012-06-14
+DRX-934-241-2050,LB,250,Lab collected 2012-08-11T11:35 after death date 2012-06-14

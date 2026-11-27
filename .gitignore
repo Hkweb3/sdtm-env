@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+outreach/
+broker/
+source/
+runs_buggy_harness/
+runs/log_*.txt
+runs_agent/log_*.txt

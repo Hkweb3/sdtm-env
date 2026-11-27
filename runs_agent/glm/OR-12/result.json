@@ -1,0 +1,21 @@
+{
+ "model": "glm",
+ "task": "OR-12",
+ "turns": 16,
+ "reward": 0.2,
+ "passed": false,
+ "error": null,
+ "found": 2,
+ "planted": 10,
+ "rows": 7,
+ "col_errors": {
+  "missed PROHIBITED_CM": 1,
+  "missed SURGICAL_HISTORY_CONFLICT": 2,
+  "missed AGE_INAPPROPRIATE_AE": 2,
+  "missed SEX_SPECIFIC_LAB": 1,
+  "missed SEX_SPECIFIC_CM": 1,
+  "missed WRONG_SOC": 1
+ },
+ "examples": [],
+ "suspicious": false
+}

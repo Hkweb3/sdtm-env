@@ -1,0 +1,15 @@
+{
+ "task": "AE-06",
+ "domain": "AE",
+ "key": [
+  "USUBJID",
+  "AESPID"
+ ],
+ "style": "compact",
+ "traps": [
+  "dup"
+ ],
+ "n_subjects": 12,
+ "n_records": 80,
+ "seed": 1005
+}

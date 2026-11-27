@@ -1,0 +1,19 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-536-298-2968,EX,1,EXDOSE 540 mg is a 10-fold impossible dose; protocol baseline dose is 54 mg (all other xanomeline records are 54/81 mg)
+CTN-536-298-2968,DM,,"Subject has DTHDTC 2010-03-30/DTHFL=Y (sudden death), yet dosing, labs and visits continue to 2010-08-06 - date of death conflicts with all subsequent data"
+CTN-536-298-2968,DS,1,Disposition PROTOCOL COMPLETED on 2010-08-06 is impossible: subject died 2010-03-30
+CTN-536-298-2968,EX,3,Dosing 2010-07-24 to 2010-08-05 occurs more than 4 months after subject's death 2010-03-30
+CTN-536-298-2968,AE,9,AE FATIGUE onset 2010-04 (partial date) starts after subject's death 2010-03-30
+CTN-536-298-2968,AE,10,AE HORDEOLUM onset 2010-05 (partial date) starts after subject's death 2010-03-30
+CTN-536-298-2968,AE,7,AE URTI end date 2010-04-07 is after subject's death 2010-03-30
+CTN-536-602-2457,AE,11,AE TESTICULAR PAIN reported for a female subject (DM SEX=F) - impossible diagnosis
+CTN-536-602-2457,AE,1,AE WBC COUNT INCREASED onset 2009-08-02 predates first study treatment 2009-08-21 (RFSTDTC)
+CTN-536-602-2457,AE,2,AE NEUTROPHIL COUNT INCREASED onset 2009-08-02 predates first study treatment 2009-08-21
+CTN-536-602-2457,AE,3,AE URINE ANALYSIS ABNORMAL onset 2009-08-02 predates first study treatment 2009-08-21
+CTN-536-876-6945,AE,1,"AE TINNITUS onset 2003-11 (partial date) is ~6 years before study entry 2009-04-29; should be medical history, not AE"
+CTN-536-581-6697,LB,200,Potassium 0.9 mmol/L is a life-threatening implausible value with no hypokalaemia AE and subject completed study - verify specimen/result
+CTN-536-861-6381,LB,38,Albumin 98 g/L is implausible (2x upper normal); all other albumins 33-47 g/L - verify result
+CTN-536-298-2968,LB,68,Glucose 16.7 mmol/L (Week 2) is marked hyperglycaemia with no related AE reported - confirm and reconcile with AE log
+CTN-536-814-3372,LB,54,"Glucose 14.7 mmol/L, repeated 13.9/13.4 mmol/L at Weeks 8/16, with no hyperglycaemia AE reported - reconcile with AE log"
+CTN-536-814-3372,EX,2,EXENDTC missing for 81 mg period started 2010-01-26 although subject discontinued treatment 2010-06-28 - exposure end date required
+CTN-536-716-1744,DM,,"Identical BRTHDTC 1926-12-24, RFSTDTC 2009-01-27 and RFENDTC 2009-07-31 as CTN-536-969-1054 at another site (710 vs 716) - suspected duplicate enrolment"

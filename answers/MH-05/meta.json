@@ -1,0 +1,16 @@
+{
+ "task": "MH-05",
+ "domain": "MH",
+ "key": [
+  "USUBJID",
+  "MHSPID"
+ ],
+ "style": "split",
+ "traps": [
+  "catcodes",
+  "deleted"
+ ],
+ "n_subjects": 16,
+ "n_records": 96,
+ "seed": 1014
+}

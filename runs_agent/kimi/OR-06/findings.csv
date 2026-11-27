@@ -1,0 +1,17 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-817-252-5217,LB,134,"Subject died 2009-01-15 (DTHDTC) but lab samples are dated after death (e.g. ALB at WEEK 8 on 2009-02-01, and visits through WEEK 16 on 2009-03-28); post-death data impossible"
+DRX-817-252-5217,EX,2,Subject died 2009-01-15 but EX shows XANOMELINE 54 mg continuing to 2009-03-28; dosing after death impossible
+DRX-817-252-5217,DS,1,"Disposition 'ADVERSE EVENT' dated 2009-03-28, but subject died 2009-01-15 (DTHDTC); death disposition/death date inconsistent"
+DRX-817-702-1835,DM,,"Subject is 41 years old at entry (BRTHDTC 1968-08-23, RFSTDTC 2010-08-08); violates key inclusion criterion age >= 50"
+DRX-817-108-9428,LB,19,Potassium 14.5 mmol/L at SCREENING 1 is incompatible with life (all other K values 3.8-4.5); likely decimal error (4.5?)
+DRX-817-702-9936,LB,283,Sodium 240 mmol/L at WEEK 24 is incompatible with life (all other values 134-139); likely decimal error (140?)
+DRX-817-108-2195,EX,3,Placebo subject has XANOMELINE 54 mg recorded at WEEK 24; treatment inconsistent with randomized arm (unblinding/dispensing error?)
+DRX-817-409-6188,EX,3,EXDOSE 540 mg at WEEK 24 (high-dose arm taper should be 54 mg); likely decimal error
+DRX-817-217-1156,AE,5,AE 'APPLICATION SITE VESICLES' start date 2011-07-31 is after the 2011-02-23 data cutoff and ~18 months after end of treatment (2010-01-19)
+DRX-817-946-3896,AE,9,AESHOSP=Y (hospitalization) but AESER=N; hospitalization makes this an SAE - seriousness flag inconsistent
+DRX-817-946-3896,AE,5,AESHOSP=Y (hospitalization) but AESER=N; hospitalization makes this an SAE - seriousness flag inconsistent
+DRX-817-718-5619,DM,,"Subject has DM record (RFSTDTC 2008-12-27, RFENDTC 2009-07-04) but no EX, DS or disposition records at all; exposure and outcome data missing"
+DRX-817-946-5027,AE,1,"AE 'RASH MACULO-PAPULAR' starts 2009-07-18, before first dose (RFSTDTC 2009-07-27); confirm date or record as medical history"
+DRX-817-946-5027,AE,2,"AE 'RASH PAPULAR' starts 2009-07-26, before first dose (RFSTDTC 2009-07-27); confirm date or record as medical history"
+DRX-817-684-5658,AE,1,AE 'ENURESIS' partial start date 2009-06 is ~8 months before first dose (2010-02-21); confirm date or record as medical history
+DRX-817-684-5658,AE,2,"AE 'DIARRHOEA' starts 2010-02-20, one day before first dose (RFSTDTC 2010-02-21); confirm start date"

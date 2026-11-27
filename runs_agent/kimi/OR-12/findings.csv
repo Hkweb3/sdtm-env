@@ -1,0 +1,21 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+BRV-243-808-7691,CM,9,"RAZADYNE ER (galantamine, a cholinesterase inhibitor) started 2010-04-24 during treatment; prohibited by protocol from first dose to end of treatment"
+BRV-243-452-1229,CM,3,"ELAVIL (amitriptyline, strong anticholinergic) started 2009-06-24 and ongoing during treatment; prohibited by protocol"
+BRV-243-476-1304,DM,,"Subject appears to be a duplicate of BRV-243-716-1060: same birth date (1929-02-20), sex, age, arm and study dates but different site (704 vs 716)"
+BRV-243-716-1060,DM,,"Subject appears to be a duplicate of BRV-243-476-1304: same birth date (1929-02-20), sex, age, arm and study dates but different site (716 vs 704); also has no disposition record"
+BRV-243-222-5605,LB,222,PSA (prostate-specific antigen) result reported for a female subject at Week 6; test not applicable to women
+BRV-243-476-9955,LB,234,Glucose 26.37 mmol/L at Week 12 is critically high and implausible without medical action; verify result/units
+BRV-243-476-9955,LB,106,Glucose 17.49 mmol/L at Week 2 is markedly high; verify result and whether unscheduled/diagnostic work-up occurred
+BRV-243-476-9955,LB,49,Glucose 15.88 mmol/L at UNSCHEDULED 1.1 is markedly high; verify result
+BRV-243-808-7691,AE,9,"AE DEPRESSED MOOD started 2010-01-21, before first dose date 2010-02-15; verify start date or record as medical history"
+BRV-243-476-1755,AE,1,AE RASH has missing AEREL (causality not assessed)
+BRV-243-367-1663,DS,62,FINAL LAB VISIT dated 2009-04-25 precedes the ADVERSE EVENT discontinuation date 2009-05-01; visit order inconsistent
+BRV-243-452-7151,CM,1,"CHLORAL HYDRATE started 2009-08-28 with no end date, ongoing through treatment; sedative use in an Alzheimer's trial should be verified"
+BRV-243-476-1304,DS,1,Discontinued for PROTOCOL VIOLATION on 2011-01-29 but no details recorded; clarify nature of violation (possible duplicate enrollment with BRV-243-716-1060)
+BRV-243-506-6071,CM,4,HYTRIN (terazosin) is UNCODED; recode to a dictionary term
+BRV-243-452-1229,CM,3,ELAVIL is UNCODED despite being a known brand of amitriptyline; recode
+BRV-243-808-7691,CM,9,RAZADYNE ER is UNCODED despite being a known brand of galantamine; recode
+BRV-243-452-7151,CM,1,CHLORAL HYDRATE is UNCODED; recode to dictionary term
+BRV-243-808-5946,EX,2,High Dose subject's Week 2 (81 mg) interval ends 2009-09-10 but treatment ended 2009-09-15; 5-day gap in dosing records before discontinuation
+BRV-243-452-7151,EX,2,High Dose subject's Week 2 (81 mg) interval ends 2009-09-23 but RFENDTC is 2009-09-25; verify last dose date
+BRV-243-808-4273,EX,1,Only a 6-day baseline dosing record (2010-01-23 to 2010-01-28) with no further EX records; confirm exposure and disposition

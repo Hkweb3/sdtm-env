@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-502-854-7628,AE,1,Syncope reported as serious (AESER=Y) and life-threatening (AESLIFE=Y) but AESHOSP=N and subject recovered same day; verify seriousness criteria and hospitalization flags.
+CTN-502-854-2404,AE,5,Benign prostatic hyperplasia (a pre-existing chronic condition) recorded as an AE with hospitalization (AESHOSP=Y) but AESER=N; hospitalization normally makes an AE serious - verify.
+CTN-502-854-2404,AE,9,Hypotension with AESHOSP=Y but AESER=N; an AE requiring hospitalization should be serious - verify seriousness flag.
+CTN-502-633-3563,AE,5,Syncope with AESHOSP=Y but AESER=N; hospitalization implies seriousness - verify.
+CTN-502-633-3563,AE,4,Complex partial seizures with AESHOSP=Y but AESER=N; hospitalization implies seriousness - verify.
+CTN-502-455-6444,CM,6,Lorazepam taken during treatment with indication 'PRIMARY STUDY CONDITION' (Alzheimer's disease); benzodiazepine for the study indication is a protocol concern - verify indication and permissibility.
+CTN-502-455-3612,CM,1,Lorazepam recorded with indication 'PRIMARY STUDY CONDITION' during treatment; verify indication - study drug is the treatment for Alzheimer's disease.
+CTN-502-854-7628,CM,1,"Chloral hydrate with indication 'PRIMARY STUDY CONDITION' started 2014-04-01, one day before first dose (RFSTDTC 2014-04-02); verify indication and dates."
+CTN-502-744-8993,AE,3,"AE 'LOCALISED INFECTION' starts 2013-08-07, two months before first dose (2013-10-07); pre-treatment event should be medical history, not an AE - verify start date."
+CTN-502-744-8993,AE,1,"AE 'ERYTHEMA' starts 2013-10-02, before first dose 2013-10-07; verify start date or record as pretreatment event."
+CTN-502-744-8993,AE,2,"AE 'PRURITUS' starts 2013-10-02, before first dose 2013-10-07; verify start date or record as pretreatment event."
+CTN-502-455-5604,AE,9,"'APPLICATION SITE ERYTHEMA' starts 2014-05-26, before first dose 2014-06-06; application-site reaction cannot precede first patch application - verify date."
+CTN-502-455-5604,AE,1,"AE 'COUGH' starts 2014-06-05, one day before first dose 2014-06-06; verify start date."
+CTN-502-455-5604,AE,2,"AE 'CONJUNCTIVITIS' starts 2014-06-05, one day before first dose 2014-06-06; verify start date."
+CTN-502-750-6085,AE,1,"AE 'WHITE BLOOD CELL COUNT INCREASED' starts 2014-08-06, before first dose 2014-08-25; verify start date."
+CTN-502-750-6085,AE,2,"AE 'NEUTROPHIL COUNT INCREASED' starts 2014-08-06, before first dose 2014-08-25; verify start date."
+CTN-502-750-6085,AE,3,"AE 'URINE ANALYSIS ABNORMAL' starts 2014-08-06, before first dose 2014-08-25; verify start date."
+CTN-502-775-4673,AE,1,"AE 'RASH' starts 2014-09-13, before first dose 2014-09-24; verify start date."
+CTN-502-775-9379,AE,1,"AE 'SEASONAL ALLERGY' starts 2014-11-05, before first dose 2014-11-12; verify start date or move to medical history."
+CTN-502-417-5902,AE,1,"AE 'DIZZINESS' with partial start date 1995-05, ~19 years before first dose; a long-standing condition belongs in medical history - verify."
+CTN-502-633-9728,AE,4,AE 'ARTHRITIS' with start year 1978 (36 years before study) recorded as an adverse event; pre-existing condition should be medical history - verify.
+CTN-502-744-3328,AE,12,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded; reconcile outcome with end date.
+CTN-502-744-5825,AE,4,AE outcome NOT RECOVERED/NOT RESOLVED but end date 2015-03-12 present; reconcile outcome with end date.
+CTN-502-775-5394,LB,234,Glucose 26.37 mmol/L (WEEK 12) is critically high; subject has no diabetes in MH - verify result and whether an AE/medical history should be recorded.
+CTN-502-455-5604,LB,56,Potassium 6.2 mmol/L (WEEK 2) is critically high; verify result and confirm whether an AE was recorded.

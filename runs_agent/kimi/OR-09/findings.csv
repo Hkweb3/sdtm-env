@@ -1,0 +1,25 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-970-817-1768,DS,1.0,"Subject died 2010-10-10 (sudden death) but disposition records PROTOCOL COMPLETED on 2011-01-22; disposition should be death, not completion"
+CTN-970-817-1768,EX,2.0,"Dosing record extends to 2011-01-12, after subject's death on 2010-10-10"
+CTN-970-817-1768,EX,3.0,Dosing record 2011-01-13 to 2011-01-21 is entirely after subject's death on 2010-10-10
+CTN-970-817-1768,DM,,RFENDTC 2011-01-22 is after DTHDTC 2010-10-10; end of treatment cannot postdate death
+CTN-970-817-1768,CM,7.0,"CLARITIN started 2010-11-27, after subject's death on 2010-10-10"
+CTN-970-817-1768,CM,3.0,"ATIVAN started 2010-11-08, after subject's death on 2010-10-10"
+CTN-970-817-1768,CM,2.0,"ATIVAN started 2010-10-12, after subject's death on 2010-10-10"
+CTN-970-817-1768,DS,2.0,"FINAL LAB VISIT dated 2011-01-22, after subject's death on 2010-10-10"
+CTN-970-817-1768,LB,186.0,Week 16-26 lab results (e.g. ALB 2010-11-08) are dated after subject's death on 2010-10-10
+CTN-970-310-3959,DM,,Subject is 41 years old at entry; protocol requires age 50 or older
+CTN-970-433-1514,LB,321.0,Beta-HCG of 12256 IU/L reported for a 77-year-old man; pregnancy hormone result is not plausible - verify test and result
+CTN-970-817-1768,CM,18.0,"ELAVIL (amitriptyline, strong anticholinergic) started 2010-10-04 during treatment; prohibited by protocol from first dose to end of treatment"
+CTN-970-433-9375,CM,8.0,"BENADRYL (diphenhydramine, strong anticholinergic) taken 2009-09-30 during treatment; prohibited by protocol"
+CTN-970-433-5249,AE,4.0,"AESHOSP=Y (hospitalization) but AESER=N; hospitalization is a seriousness criterion, so this AE should be serious"
+CTN-970-433-5249,AE,5.0,"AESHOSP=Y (hospitalization) but AESER=N; hospitalization is a seriousness criterion, so this AE should be serious"
+CTN-970-359-3413,AE,1.0,"Application site pruritus started 2010-01-08, before first patch application on 2010-01-10; onset before first dose is implausible"
+CTN-970-211-4455,AE,1.0,"AV block second degree started 2010-01-27, before first dose on 2010-01-29; pre-existing condition should be medical history, not an AE"
+CTN-970-433-8299,AE,1.0,"Headache started 2009-12-15, before first dose on 2009-12-16; confirm whether pre-treatment event belongs in MH"
+CTN-970-627-3686,AE,1.0,"Hypertension onset 2009-05-11 is about 6 months before first dose 2009-11-15; pre-existing condition should be medical history, not an AE"
+CTN-970-359-4632,CM,4.0,"PREDNISONE started 2009-12-07, after end of treatment 2009-12-02; confirm dates"
+CTN-970-359-4632,CM,5.0,"TEMOVATE started 2009-12-07, after end of treatment 2009-12-02; confirm dates"
+CTN-970-211-7088,CM,1.0,LORAZEPAM indication recorded as PRIMARY STUDY CONDITION (Alzheimer's disease); implausible indication - please verify
+CTN-970-379-5037,LB,135.0,ALT 129 U/L at Week 8 versus 10-20 U/L at all other visits and 42 U/L three days later; implausible isolated spike - verify result
+CTN-970-211-4455,DS,2.0,"FINAL LAB VISIT dated 2010-01-20, before first dose 2010-01-29 and before discontinuation 2010-02-26; date appears inconsistent"

@@ -1,0 +1,12 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+MRN-611-558-1008,DM,,age 17 below the protocol minimum 50
+MRN-611-902-1436,DM,,same birth date and sex as another subject; possible duplicate enrollment
+MRN-611-714-4911,DM,,same birth date and sex as another subject; possible duplicate enrollment
+MRN-611-154-9033,AE,2,TESTICULAR PAIN in a F subject
+MRN-611-487-4789,AE,6,GASTROINTESTINAL HAEMORRHAGE in a F subject
+MRN-611-154-5399,AE,1,AE start after data cutoff
+MRN-611-558-1008,AE,1,APPLICATION SITE PRURITUS coded to EYE DISORDERS
+MRN-611-128-4078,EX,3,dose 540 does not match arm Placebo
+MRN-611-622-4672,LB,87,GLUC nan is not compatible with life
+MRN-611-509-2954,LB,96,SODIUM 240 is not compatible with life
+MRN-611-509-2954,LB,239,lab collected after the recorded death date

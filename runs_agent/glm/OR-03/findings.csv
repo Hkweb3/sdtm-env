@@ -1,0 +1,17 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+PLX-578-189-1276,DM,,"AGE 41 at entry violates protocol inclusion criterion (age >= 50 years); BRTHDTC 1973-03-25 consistent with 41, so AGE/BRTHDTC agree but subject is ineligible"
+PLX-578-863-2248,EX,3,Subject randomized to Placebo received XANOMELINE 54 mg from 2015-04-22 to 2015-05-05; wrong treatment dispensed
+PLX-578-927-7566,AE,1,HIATUS HERNIA onset 2016-03-25 is after the 2015-11-20 data cutoff and ~10 months after RFENDTC 2014-06-02; date impossible
+PLX-578-700-1334,LB,38,"ALB 98 g/L at WEEK 2 vs 34-40 g/L at all other visits; implausible value, probable data entry error"
+PLX-578-700-1334,AE,1,ANXIETY onset 2013-07 is ~20 months before first dose (2015-03-06); onset predates study participation
+PLX-578-189-1276,AE,1,WHITE BLOOD CELL COUNT INCREASED onset 2014-09-10 is 19 days before first dose (2014-09-29)
+PLX-578-189-1276,AE,2,NEUTROPHIL COUNT INCREASED onset 2014-09-10 is 19 days before first dose (2014-09-29)
+PLX-578-189-1276,AE,3,URINE ANALYSIS ABNORMAL onset 2014-09-10 is 19 days before first dose (2014-09-29)
+PLX-578-146-3978,AE,1,RASH MACULO-PAPULAR onset 2014-08-14 is 9 days before first dose (2014-08-23)
+PLX-578-146-3978,AE,2,RASH PAPULAR onset 2014-08-22 is before first dose (2014-08-23)
+PLX-578-340-5121,AE,1,RASH onset 2014-10-18 is 11 days before first dose (2014-10-29)
+PLX-578-126-3449,AE,6,OEDEMA PERIPHERAL onset 2014-05-04 is 13 days before first dose (2014-05-17)
+PLX-578-340-1532,AE,1,SEASONAL ALLERGY onset 2014-12-10 is 7 days before first dose (2014-12-17)
+PLX-578-872-2762,AE,1,HYPERBILIRUBINAEMIA with BILI up to 124.83 umol/L (~6x ULN) leading to discontinuation but AESER=N; confirm seriousness assessment
+PLX-578-927-5779,AE,9,FATIGUE onset date incomplete (2015-05); partial date prevents interval calculation
+PLX-578-927-5779,AE,10,HORDEOLUM onset date incomplete (2015-06); partial date prevents interval calculation

@@ -1,0 +1,17 @@
+{
+ "task": "AEX-03",
+ "domain": "AE",
+ "key": [
+  "USUBJID",
+  "AESPID"
+ ],
+ "style": "site_infer",
+ "traps": [
+  "deleted",
+  "dup",
+  "sevcodes"
+ ],
+ "n_subjects": 22,
+ "n_records": 143,
+ "seed": 2009
+}

@@ -1,0 +1,9 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-536-969-1054,DM,,same birth date and sex as another subject; possible duplicate enrollment
+CTN-536-716-1744,DM,,same birth date and sex as another subject; possible duplicate enrollment
+CTN-536-602-2457,AE,11,TESTICULAR PAIN in a F subject
+CTN-536-298-2968,AE,3,PRURITUS coded to EYE DISORDERS
+CTN-536-298-2968,EX,1,dose 540 does not match arm Xanomeline High Dose
+CTN-536-581-6697,LB,200,K 0.9 is not compatible with life
+CTN-536-861-6381,LB,38,ALB 98 is not compatible with life
+CTN-536-298-2968,LB,260,lab collected after the recorded death date

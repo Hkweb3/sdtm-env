@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+PLX-578-189-1276,DM,,Age at entry 41 violates the protocol inclusion criterion of age >= 50
+PLX-578-700-1334,LB,38,Albumin result 98.0 g/L is physiologically impossible
+PLX-578-863-2248,EX,3,Placebo subject at WEEK 24 dosed with XANOMELINE 54 mg; protocol requires PLACEBO 0 mg
+PLX-578-927-7566,AE,1,AE start 2016-03-25 is after the 2015-11-20 data cutoff
+PLX-578-126-1243,AE,1,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-126-1243,AE,4,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-126-3449,AE,1,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-126-3449,AE,6,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-126-3449,AE,7,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-146-3978,AE,1,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-146-3978,AE,2,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-146-3978,AE,3,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-146-3978,AE,9,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-165-4467,AE,8,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-165-8767,AE,2,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-165-8767,AE,3,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-165-8767,AE,4,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-189-1276,AE,1,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-189-1276,AE,2,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-189-1276,AE,3,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-189-1276,AE,7,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-340-1532,AE,2,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-340-1532,AE,3,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-340-1532,AE,4,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded
+PLX-578-340-1532,AE,6,AE outcome is NOT RECOVERED/NOT RESOLVED but an end date is recorded

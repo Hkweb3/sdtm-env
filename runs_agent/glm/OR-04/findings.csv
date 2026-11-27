@@ -1,0 +1,22 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-934-336-2971,AE,6,AE start date 2014-01-21 is after the 2013-10-05 data cutoff and ~5 months after the subject's study end (2012-08-03)
+DRX-934-891-1905,EX,1,EXDOSE 540 mg is an impossible dose; protocol xanomeline low dose is 54 mg (apparent 10-fold data entry error)
+DRX-934-241-2050,DS,1,"Disposition 'PROTOCOL COMPLETED' dated 2012-10-20 although the subject died on 2012-06-14 (DTHFL=Y, sudden death)"
+DRX-934-241-2050,EX,3,Exposure record 2012-09-29 to 2012-10-20 is more than 3 months after the subject's death on 2012-06-14
+DRX-934-241-2050,EX,2,"Exposure record ends 2012-09-28, more than 3 months after the subject's death on 2012-06-14"
+DRX-934-241-2050,DM,,RFENDTC 2012-10-20 is more than 3 months after the subject's death on 2012-06-14; post-death visits/labs/exposure exist
+DRX-934-241-2050,LB,194,"Lab sample dated 2012-06-16, after the subject's death on 2012-06-14 (48 post-death lab records in total)"
+DRX-934-963-8608,EX,2,81 mg exposure starting 2013-02-19 has no end date although the subject discontinued on 2013-07-22; exposure duration unknown
+DRX-934-708-9981,DM,,Randomized and treated per DM (RFSTDTC 2011-11-02) but has no exposure (EX) and no disposition (DS) records
+DRX-934-783-8157,LB,108,Albumin 4 g/L is implausibly low (reference ~35-52 g/L); possible decimal-point/unit error
+DRX-934-617-5709,LB,38,Albumin 98 g/L is implausibly high (reference ~35-52 g/L); possible decimal-point/unit error
+DRX-934-783-2162,AE,1,"Dizziness with onset 1993-06 predates first dose (2012-07-04) by ~19 years; this is medical history, not an adverse event"
+DRX-934-241-6348,AE,3,"Glaucoma with onset 1991 predates first dose (2011-11-02) by ~20 years; this is medical history, not an adverse event"
+DRX-934-963-6848,AE,2,Pruritus onset 2011-01-24 is ~9 months before first dose (2011-10-28); should be medical history or date needs verification
+DRX-934-805-7986,AE,1,Hypertension onset 2011-09-12 is ~6 months before first dose (2012-03-18); should be medical history or date needs verification
+DRX-934-336-2971,AE,1,Application site pruritus onset 2012-05-11 is 2 days before first patch application (2012-05-13); implausible before exposure
+DRX-934-241-5004,AE,1,AV block 2nd degree onset 2013-05-04 is 2 days before first dose (2013-05-06); onset date needs verification
+DRX-934-202-7707,AE,4,Erythema 2011-11-13 to 2011-11-19 is contained within AESEQ=1 (erythema 2011-11-05 to 2011-11-19); duplicate event
+DRX-934-202-7707,AE,5,Pruritus 2011-11-13 to 2011-11-19 is contained within AESEQ=2 (pruritus 2011-11-05 to 2011-11-19); duplicate event
+DRX-934-783-2162,AE,8,"Dizziness on 2012-09-29 duplicates AESEQ=1 (dizziness ongoing since 1993-06, outcome not recovered)"
+DRX-934-963-6848,LB,38,Bilirubin result missing (LBSTRESN empty) for WEEK 2 sample of 2011-11-17

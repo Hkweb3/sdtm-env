@@ -1,0 +1,12 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-829-507-3184,EX,2,Placebo subject recorded as receiving XANOMELINE 81 mg at WEEK 2 - wrong treatment and dose for the randomized arm
+CTN-829-902-5320,CM,7,"ELAVIL (amitriptyline, strong anticholinergic) started 2009-11-12 during treatment - prohibited medication per protocol"
+CTN-829-242-3018,LB,323,Beta-HCG 11085 IU/L at WEEK 4 in an 85-year-old man - implausible test/result for this subject
+CTN-829-726-4421,CM,3,MICROGYNON (combined oral contraceptive) recorded for an 81-year-old man - implausible medication
+CTN-829-726-4421,LB,178,"WEEK 12 lab panel drawn 2009-04-26, after end of treatment 2009-04-22 (subject discontinued ~week 10) - visit/date inconsistent"
+CTN-829-402-3702,AE,1,AE start 2009-05-30 precedes first dose 2009-06-01 - not treatment-emergent; verify date or move to medical history
+CTN-829-507-8739,AE,1,AE start 2009-08-11 precedes first dose 2009-08-12 - not treatment-emergent; verify date or move to medical history
+CTN-829-567-9261,AE,6,AE start 2009-04-19 precedes first dose 2009-05-02 - not treatment-emergent; verify date or move to medical history
+CTN-829-159-4777,AE,1,AE start 2009-11-25 precedes first dose 2009-12-02 - not treatment-emergent; verify date or move to medical history
+CTN-829-242-7481,AE,1,AE start 2009-07-05 precedes first dose 2009-07-09 - not treatment-emergent; verify date or move to medical history
+CTN-829-507-3184,LB,130,Bilirubin 124.83 umol/L at WEEK 4 identical to UNSCHEDULED 4.1 result (LBSEQ 79) three days earlier - possible duplicated record

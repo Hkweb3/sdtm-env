@@ -1,0 +1,21 @@
+{
+ "model": "kimi",
+ "task": "OR-04",
+ "attempts": 2,
+ "error": null,
+ "reward": 0.125,
+ "passed": false,
+ "found": 1,
+ "planted": 8,
+ "rows": 25,
+ "col_errors": {
+  "missed DUPLICATE_SUBJECT": 1,
+  "missed IMPLAUSIBLE_DOSE": 1,
+  "missed IMPOSSIBLE_LAB": 2,
+  "missed AFTER_CUTOFF": 1,
+  "missed WRONG_SOC": 1,
+  "missed SEX_SPECIFIC_AE": 1
+ },
+ "examples": [],
+ "suspicious": false
+}

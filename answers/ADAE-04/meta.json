@@ -1,0 +1,21 @@
+{
+ "task": "ADAE-04",
+ "domain": "ADAE",
+ "key": [
+  "USUBJID",
+  "AESEQ"
+ ],
+ "traps": [
+  "partial=0.4",
+  "window=7"
+ ],
+ "n_subjects": 24,
+ "n_records": 159,
+ "seed": 2003,
+ "out": "adae.csv",
+ "free": [
+  "AETERM",
+  "AEDECOD",
+  "AEBODSYS"
+ ]
+}

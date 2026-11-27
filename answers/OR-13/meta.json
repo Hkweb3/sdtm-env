@@ -1,0 +1,25 @@
+{
+ "task": "OR-13",
+ "domain": "OR",
+ "kind": "open_review",
+ "out": "findings.csv",
+ "cap": 25,
+ "n_subjects": 24,
+ "n_records": 8,
+ "seed": 4200,
+ "types": [
+  "ABSENT_ORGAN",
+  "AE_LAB_CONTRADICTION",
+  "APP_SITE_BEFORE_PATCH",
+  "SEX_SPECIFIC_MH",
+  "MH_BEFORE_BIRTH",
+  "ABSENT_ORGAN",
+  "SURGICAL_HISTORY_CONFLICT",
+  "WRONG_SOC"
+ ],
+ "key": [
+  "USUBJID",
+  "DOMAIN",
+  "SEQ"
+ ]
+}

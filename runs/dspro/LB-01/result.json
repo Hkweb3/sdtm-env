@@ -1,0 +1,8 @@
+{
+ "model": "dspro",
+ "task": "LB-01",
+ "attempts": 1,
+ "error": "api: HTTP 402: b'{\"error\":{\"message\":\"Insufficient Balance (request_id: c7475228-9981-47a6-804a-3b31da892518)\",\"type\":\"insufficient_balance_error\",\"param\":null,\"code\":\"invalid_request_error\"}}'",
+ "reward": 0.0,
+ "passed": false
+}

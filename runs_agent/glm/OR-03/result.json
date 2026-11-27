@@ -1,0 +1,17 @@
+{
+ "model": "glm",
+ "task": "OR-03",
+ "turns": 12,
+ "reward": 0.5,
+ "passed": false,
+ "error": null,
+ "found": 4,
+ "planted": 8,
+ "rows": 16,
+ "col_errors": {
+  "missed SEX_SPECIFIC_AE": 2,
+  "missed WRONG_SOC": 2
+ },
+ "examples": [],
+ "suspicious": false
+}

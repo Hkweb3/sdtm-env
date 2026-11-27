@@ -1,0 +1,67 @@
+{
+ "model": "dsflash",
+ "task": "MH-02",
+ "attempts": 1,
+ "reward": 0.9338,
+ "passed": false,
+ "error": null,
+ "columns_exact": true,
+ "missing_cols": [],
+ "missing_rows": 0,
+ "extra_rows": 0,
+ "col_errors": {
+  "MHSTDTC": 23,
+  "MHSEQ": 13
+ },
+ "examples": [
+  {
+   "key": "KVT-131-281-6734 / MH08",
+   "col": "MHSTDTC",
+   "expected": "1949",
+   "got": ""
+  },
+  {
+   "key": "KVT-131-281-6734 / MH05",
+   "col": "MHSEQ",
+   "expected": "2",
+   "got": "3"
+  },
+  {
+   "key": "KVT-131-281-6734 / MH05",
+   "col": "MHSTDTC",
+   "expected": "1985",
+   "got": ""
+  },
+  {
+   "key": "KVT-131-281-6734 / MH06",
+   "col": "MHSEQ",
+   "expected": "3",
+   "got": "2"
+  },
+  {
+   "key": "KVT-131-281-6734 / MH06",
+   "col": "MHSTDTC",
+   "expected": "2006",
+   "got": ""
+  },
+  {
+   "key": "KVT-131-508-8623 / MH04",
+   "col": "MHSEQ",
+   "expected": "1",
+   "got": "2"
+  },
+  {
+   "key": "KVT-131-508-8623 / MH04",
+   "col": "MHSTDTC",
+   "expected": "1988",
+   "got": ""
+  },
+  {
+   "key": "KVT-131-508-8623 / MH06",
+   "col": "MHSEQ",
+   "expected": "2",
+   "got": "1"
+  }
+ ],
+ "suspicious": false
+}

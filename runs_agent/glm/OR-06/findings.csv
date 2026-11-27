@@ -1,0 +1,24 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-817-702-1835,DM,,Age 41 at entry violates protocol inclusion criterion (age >= 50)
+DRX-817-217-1156,AE,5,AE start 2011-07-31 is after data cutoff 2011-02-23 and ~6 months after treatment ended 2010-01-19
+DRX-817-409-6188,EX,3,EXDOSE 540 mg is not a protocol dose (should be 54 mg at Week 24 for high dose arm)
+DRX-817-108-2195,EX,3,Placebo subject dosed with XANOMELINE 54 mg (EXTRT/EXDOSE contradict randomized arm)
+DRX-817-108-9428,LB,19,Potassium 14.5 mmol/L is implausible/incompatible with life; all other K results 3.8-4.5
+DRX-817-702-9936,LB,283,Sodium 240 mmol/L is implausible; check against other Na results
+DRX-817-252-5217,DM,,Death date 2009-01-15 inconsistent with EX/DS/LB records dated through 2009-03-28
+DRX-817-252-5217,AE,4,"AE PRURITUS starts 2009-01-25, after recorded death 2009-01-15"
+DRX-817-252-5217,AE,5,"AE RASH starts 2009-02-03, after recorded death 2009-01-15"
+DRX-817-252-5217,AE,6,"AE BLISTER starts 2009-02-03, after recorded death 2009-01-15"
+DRX-817-252-5217,AE,7,"AE ATRIAL FIBRILLATION starts 2009-03-28, after recorded death 2009-01-15"
+DRX-817-252-5217,AE,8,"AE ECG T WAVE AMPLITUDE DECREASED starts 2009-03-28, after recorded death 2009-01-15"
+DRX-817-252-5217,EX,2,"Dosing record ends 2009-03-28, after recorded death 2009-01-15"
+DRX-817-252-5217,DS,1,"Disposition event dated 2009-03-28, after recorded death 2009-01-15"
+DRX-817-252-5217,DS,2,"Final lab visit dated 2009-03-28, after recorded death 2009-01-15"
+DRX-817-946-3896,AE,5,AESHOSP=Y (hospitalization) but AESER=N; seriousness flags inconsistent
+DRX-817-946-3896,AE,9,AESHOSP=Y (hospitalization) but AESER=N; seriousness flags inconsistent
+DRX-817-684-5658,AE,1,AE ENURESIS start 2009-06 precedes treatment start 2010-02-21 by 8 months
+DRX-817-946-5027,AE,1,"AE RASH MACULO-PAPULAR starts 2009-07-18, before treatment start 2009-07-27"
+DRX-817-946-5027,AE,2,"AE RASH PAPULAR starts 2009-07-26, before treatment start 2009-07-27"
+DRX-817-806-5393,EX,2,EXENDTC missing though subject completed treatment (RFENDTC 2010-06-18)
+DRX-817-108-6523,AE,5,AE start date incomplete (2009-08); complete date required
+DRX-817-108-6523,AE,6,AE start date incomplete (2009-08); complete date required

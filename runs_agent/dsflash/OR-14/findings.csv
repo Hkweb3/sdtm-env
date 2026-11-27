@@ -1,0 +1,14 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-452-118-9419,AE,4,"AE term ARTHRITIS has onset date 1976, decades before study start - this is medical history, not an adverse event"
+DRX-452-760-1404,AE,3,"AE term DERMATITIS ATOPIC has onset date 1981, decades before study start - this is medical history, not an adverse event"
+DRX-452-760-2351,AE,13,AE end date 2012-06-19 is after the subject's end-of-treatment date 2012-06-12
+DRX-452-760-2351,AE,14,AE end date 2012-06-19 is after the subject's end-of-treatment date 2012-06-12
+DRX-452-273-4264,AE,2,"AE PRURITUS onset 2011-03-29 is ~9 months before first dose 2011-12-31 - pre-treatment, not treatment-emergent"
+DRX-452-118-2441,CM,2,Concomitant medication 'PERDIEM' is not a drug name - implausible medication entry
+DRX-452-386-1770,DS,1,Disposition term 'PMD DECISION DUE TO AE'S' is garbled/abbreviated and inconsistent with coded term PHYSICIAN DECISION
+DRX-452-277-1428,AE,6,AE term DELAYED PUBERTY is implausible in a 68-year-old male subject
+DRX-452-277-1428,AE,2,AE STUPOR (severe) and TRANSIENT ISCHAEMIC ATTACK (severe) both on 2013-04-25 - possible duplicate/overlapping serious events needing reconciliation
+DRX-452-759-8552,AE,1,AE RASH MACULO-PAPULAR onset 2012-10-02 is before first dose 2012-10-11 - pre-treatment event
+DRX-452-759-8552,AE,2,AE RASH PAPULAR onset 2012-10-10 is before first dose 2012-10-11 - pre-treatment event
+DRX-452-708-2952,AE,5,AE APPLICATION SITE ERYTHEMA onset 2012-01-22 is before first dose 2012-02-01 - pre-treatment event
+DRX-452-118-2287,AE,1,AE HEADACHE onset 2012-06-20 is before first dose 2012-06-21 - pre-treatment event

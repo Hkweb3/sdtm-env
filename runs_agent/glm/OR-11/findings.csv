@@ -1,0 +1,15 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+BRV-592-234-1302,AE,3,AE onset 2014-08-20 is after the 2014-04-23 data cutoff and ~2 years after the subject's study end (2012-10-23); impossible date
+BRV-592-852-6064,LB,26,Serum sodium 240 mmol/L at SCREENING 1 is incompatible with life; next result 145 mmol/L indicates probable data/transcription error
+BRV-592-851-1962,CM,11,"Rivastigmine (EXELON PATCH), a prohibited cholinesterase inhibitor, started 2012-05-20 during the treatment period and is ongoing with no end date"
+BRV-592-852-4239,CM,6,"EXELON PATCH (rivastigmine, prohibited cholinesterase inhibitor) started 2012-08-22 during treatment period; also left UNCODED in CMDECOD"
+BRV-592-852-1703,LB,317,PSA (Prostate Specific Antigen) result reported for a female subject; check subject sex or lab record
+BRV-592-852-6064,AE,1,"AE (atrioventricular block second degree) onset 2013-03-05 precedes first dose 2013-03-07; not treatment-emergent, consider medical history"
+BRV-592-312-3815,AE,2,AE (diarrhoea) onset 2013-03-31 precedes first dose 2013-04-01; also outcome NOT RECOVERED despite end date 2013-04-28
+BRV-592-759-9618,AE,1,AE (headache) onset 2012-05-14 precedes first dose 2012-05-15
+BRV-592-725-8210,LB,234,Glucose 26.4 mmol/L at WEEK 12 is an extreme outlier vs subject's other values (7.0-17.5 mmol/L); verify result
+BRV-592-671-6442,AE,4,Outcome NOT RECOVERED/NOT RESOLVED inconsistent with end date 2013-08-19
+BRV-592-891-8448,AE,1,Outcome NOT RECOVERED/NOT RESOLVED inconsistent with end date 2012-10-01
+BRV-592-234-2542,AE,10,Outcome NOT RECOVERED/NOT RESOLVED inconsistent with end date 2012-08-29
+BRV-592-759-9618,AE,4,Outcome NOT RECOVERED/NOT RESOLVED inconsistent with end date 2012-09-22
+BRV-592-311-6075,AE,5,Outcome NOT RECOVERED/NOT RESOLVED inconsistent with end date 2012-09-28

@@ -1,0 +1,8 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+BRV-243-716-1060,DM,,"Same person enrolled twice: identical DOB (1929-02-20), sex, arm and study dates as BRV-243-476-1304 at site 704"
+BRV-243-476-1304,DM,,"Same person enrolled twice: identical DOB (1929-02-20), sex, arm and study dates as BRV-243-716-1060 at site 716"
+BRV-243-452-1229,CM,3,"ELAVIL (amitriptyline, strong anticholinergic) ongoing with no end date during treatment - prohibited medication"
+BRV-243-476-9955,LB,234,"Glucose 26.3672 mmol/L (~475 mg/dL) at WEEK 12 - extreme value, implausible without corresponding serious AE"
+BRV-243-808-7691,AE,9,AE DEPRESSED MOOD start 2010-01-21 precedes first dose (RFSTDTC 2010-02-15); pre-treatment event misclassified as AE
+BRV-243-222-5605,DS,2,FINAL LAB VISIT dated 2009-06-22 but treatment continued to RFENDTC 2009-08-18 - inconsistent disposition date
+BRV-243-367-1663,DS,2,FINAL LAB VISIT dated 2009-04-25 but treatment continued to RFENDTC 2009-05-01 - inconsistent disposition date

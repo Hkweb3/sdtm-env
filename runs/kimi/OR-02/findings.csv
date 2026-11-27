@@ -1,0 +1,11 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-536-298-2968,AE,7,AE end 2010-04-07 is after death date 2010-03-30
+CTN-536-298-2968,EX,2,Dosing continues to 2010-07-23 after death date 2010-03-30
+CTN-536-298-2968,EX,3,Dosing starts 2010-07-24 after death date 2010-03-30
+CTN-536-298-2968,LB,148,Lab collected 2010-04-01T10:07 after death date 2010-03-30 [48 records affected for this subject; earliest shown]
+CTN-536-298-2968,DS,1,Subject died 2010-03-30 but disposition is 'PROTOCOL COMPLETED' dated 2010-08-06
+CTN-536-298-2968,DS,2,Disposition event 'FINAL LAB VISIT' dated 2010-08-06 is after death date 2010-03-30
+CTN-536-298-2968,DM,,Subject died 2010-03-30 but RFENDTC 2010-08-06 is after the death date
+CTN-536-298-2968,EX,1,XANOMELINE dose 540 mg at BASELINE is inconsistent with the Xanomeline High Dose arm (expected 54 mg)
+CTN-536-581-6697,LB,200,Result 0.9 mmol/L for Potassium is physiologically impossible
+CTN-536-861-6381,LB,38,Result 98 g/L for Albumin is physiologically impossible

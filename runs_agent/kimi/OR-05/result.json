@@ -1,0 +1,17 @@
+{
+ "model": "kimi",
+ "task": "OR-05",
+ "turns": 16,
+ "reward": 0.7778,
+ "passed": false,
+ "error": null,
+ "found": 7,
+ "planted": 9,
+ "rows": 25,
+ "col_errors": {
+  "missed SEX_SPECIFIC_AE": 1,
+  "missed WRONG_SOC": 1
+ },
+ "examples": [],
+ "suspicious": false
+}

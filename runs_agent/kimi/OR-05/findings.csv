@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+MRN-611-558-1008,DM,,Subject is 17 years old (born 1996-03-21); violates key inclusion criterion age >= 50
+MRN-611-714-4911,DM,,"Exact duplicate of subject MRN-611-902-1436 (same birthdate, sex, arm, start/end dates) at a different site - possible double enrollment"
+MRN-611-509-2954,DM,,RFENDTC 2013-06-25 is ~3.5 months after DTHDTC 2013-03-11; DS withdrawal date also after death
+MRN-611-509-2954,AE,5,"Influenza AE starts 2013-05-25, after subject's death on 2013-03-11"
+MRN-611-154-5399,AE,1,AE start date 2015-03-12 is after the 2014-12-17 data cutoff and ~18 months after study end 2013-09-01
+MRN-611-558-1008,AE,2,"Myocardial infarction recorded as MILD, non-serious, no hospitalization - inconsistent with the event"
+MRN-611-154-7644,AE,8,Myocardial infarction recorded as non-serious with no hospitalization - inconsistent with the event
+MRN-611-558-1297,AE,1,Myocardial infarction recorded as MILD and non-serious - inconsistent with the event
+MRN-611-154-5399,AE,6,"Oedema peripheral starts 2013-02-15, before first study treatment 2013-02-28, and AEENDTC equals start despite 'not recovered' pattern"
+MRN-611-778-7154,AE,1,Hypertension AE start 2012-07-10 precedes screening/first dose 2013-01-14 by 6 months - verify date or record as medical history
+MRN-611-154-5079,AE,1,"AV block second degree starts 2013-12-05, two days before first dose 2013-12-07 - pretreatment event recorded as AE"
+MRN-611-902-1436,AE,1,"WBC count increased starts 2013-06-24, before first dose 2013-07-13 - pretreatment finding recorded as AE"
+MRN-611-128-4078,EX,3,Placebo subject record shows XANOMELINE 540 mg at Week 24 - wrong treatment and implausible dose (10x max)
+MRN-611-128-5562,EX,2,EXENDTC missing for ongoing Week 2 dosing record
+MRN-611-154-9033,EX,2,High Dose arm: 81 mg continues to 2014-04-06 with no down-titration to 54 mg at Week 24 per protocol
+MRN-611-487-4789,EX,2,"High Dose arm: no Week 24 down-titration record (81 mg runs to 2013-01-09, end of exposure)"
+MRN-611-865-2239,EX,2,"High Dose arm: no Week 24 down-titration record (81 mg runs to 2013-02-14, end of exposure)"
+MRN-611-323-9629,EX,2,"High Dose arm: no Week 24 down-titration record (81 mg runs to 2013-10-01, end of exposure)"
+MRN-611-509-2954,LB,96,Sodium 240 mmol/L is physiologically impossible (incompatible with life)
+MRN-611-509-2954,LB,133,Lab drawn 2013-03-13 (Week 8) after subject's death on 2013-03-11; multiple post-death labs through Week 24
+MRN-611-509-2954,LB,266,"Week 24 lab dated 2013-06-25, over 3 months after death 2013-03-11"
+MRN-611-622-4672,LB,87,Glucose result missing (LBSTRESN blank) at Week 4
+MRN-611-128-5562,LB,262,Bilirubin result missing (LBSTRESN blank) at Week 24
+MRN-611-509-3615,LB,41,Bilirubin result missing (LBSTRESN blank) at Week 4
+MRN-611-154-5079,DS,1,"Disposition 'PROTOCOL ENTRY CRITERIA NOT MET' dated 2013-12-18, after subject received study drug from 2013-12-07 - eligibility determined after dosing"

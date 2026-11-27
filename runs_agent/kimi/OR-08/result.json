@@ -1,0 +1,9 @@
+{
+ "model": "kimi",
+ "task": "OR-08",
+ "turns": 16,
+ "reward": 0.0,
+ "passed": false,
+ "error": "no output file",
+ "suspicious": false
+}

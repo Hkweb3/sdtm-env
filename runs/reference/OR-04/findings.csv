@@ -1,0 +1,10 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-934-241-6348,DM,,same birth date and sex as another subject; possible duplicate enrollment
+DRX-934-708-9981,DM,,same birth date and sex as another subject; possible duplicate enrollment
+DRX-934-336-2971,AE,6,AE start after data cutoff
+DRX-934-783-8157,AE,6,ERECTILE DYSFUNCTION in a F subject
+DRX-934-783-2162,AE,6,VOMITING coded to EYE DISORDERS
+DRX-934-891-1905,EX,1,dose 540 does not match arm Xanomeline Low Dose
+DRX-934-617-5709,LB,38,ALB 98 is not compatible with life
+DRX-934-783-8157,LB,108,ALB 4 is not compatible with life
+DRX-934-241-2050,LB,268,lab collected after the recorded death date

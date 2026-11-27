@@ -1,0 +1,8 @@
+{
+ "model": "glm",
+ "task": "OR-05",
+ "attempts": 2,
+ "error": "  File \"C:\\Users\\krishna\\AppData\\Local\\Temp\\sdtm_qxl6y2gq\\solution.py\", line 1\n    ```python\n    ^\nSyntaxError: invalid syntax\n",
+ "reward": 0.0,
+ "passed": false
+}

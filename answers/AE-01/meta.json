@@ -1,0 +1,13 @@
+{
+ "task": "AE-01",
+ "domain": "AE",
+ "key": [
+  "USUBJID",
+  "AESPID"
+ ],
+ "style": "dmy_text",
+ "traps": [],
+ "n_subjects": 8,
+ "n_records": 43,
+ "seed": 1000
+}

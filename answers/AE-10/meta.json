@@ -1,0 +1,17 @@
+{
+ "task": "AE-10",
+ "domain": "AE",
+ "key": [
+  "USUBJID",
+  "AESPID"
+ ],
+ "style": "site",
+ "traps": [
+  "deleted",
+  "dup",
+  "sevcodes"
+ ],
+ "n_subjects": 16,
+ "n_records": 86,
+ "seed": 1009
+}

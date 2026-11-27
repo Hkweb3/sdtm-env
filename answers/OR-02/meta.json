@@ -1,0 +1,24 @@
+{
+ "task": "OR-02",
+ "domain": "OR",
+ "kind": "open_review",
+ "out": "findings.csv",
+ "cap": 25,
+ "n_subjects": 23,
+ "n_records": 7,
+ "seed": 4001,
+ "types": [
+  "IMPOSSIBLE_LAB",
+  "IMPOSSIBLE_LAB",
+  "DATA_AFTER_DEATH",
+  "SEX_SPECIFIC_AE",
+  "IMPLAUSIBLE_DOSE",
+  "DUPLICATE_SUBJECT",
+  "WRONG_SOC"
+ ],
+ "key": [
+  "USUBJID",
+  "DOMAIN",
+  "SEQ"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "task": "DM-04",
+ "domain": "DM",
+ "key": [
+  "USUBJID"
+ ],
+ "style": "split",
+ "traps": [
+  "ageedge",
+  "racecodes"
+ ],
+ "n_subjects": 20,
+ "n_records": 20,
+ "seed": 1018
+}

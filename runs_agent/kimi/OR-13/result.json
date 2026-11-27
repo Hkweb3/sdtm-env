@@ -1,0 +1,21 @@
+{
+ "model": "kimi",
+ "task": "OR-13",
+ "turns": 16,
+ "reward": 0.125,
+ "passed": false,
+ "error": null,
+ "found": 1,
+ "planted": 8,
+ "rows": 20,
+ "col_errors": {
+  "missed ABSENT_ORGAN": 2,
+  "missed AE_LAB_CONTRADICTION": 1,
+  "missed SEX_SPECIFIC_MH": 1,
+  "missed MH_BEFORE_BIRTH": 1,
+  "missed SURGICAL_HISTORY_CONFLICT": 1,
+  "missed WRONG_SOC": 1
+ },
+ "examples": [],
+ "suspicious": false
+}

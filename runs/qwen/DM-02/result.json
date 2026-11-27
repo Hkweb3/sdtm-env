@@ -1,0 +1,8 @@
+{
+ "model": "qwen",
+ "task": "DM-02",
+ "attempts": 2,
+ "error": "  File \"C:\\Users\\krishna\\AppData\\Local\\Temp\\sdtm_003noaz8\\solution.py\", line 1\n    ```python\n    ^\nSyntaxError: invalid syntax\n",
+ "reward": 0.0,
+ "passed": false
+}

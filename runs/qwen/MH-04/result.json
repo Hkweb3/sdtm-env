@@ -1,0 +1,8 @@
+{
+ "model": "qwen",
+ "task": "MH-04",
+ "attempts": 2,
+ "error": "the script ran but did not write output/mh.csv",
+ "reward": 0.0,
+ "passed": false
+}

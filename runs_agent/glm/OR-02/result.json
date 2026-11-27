@@ -1,0 +1,16 @@
+{
+ "model": "glm",
+ "task": "OR-02",
+ "turns": 12,
+ "reward": 0.8571,
+ "passed": false,
+ "error": null,
+ "found": 6,
+ "planted": 7,
+ "rows": 18,
+ "col_errors": {
+  "missed WRONG_SOC": 1
+ },
+ "examples": [],
+ "suspicious": false
+}

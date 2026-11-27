@@ -1,0 +1,15 @@
+{
+ "model": "glm",
+ "task": "DM-03",
+ "attempts": 1,
+ "reward": 1.0,
+ "passed": true,
+ "error": null,
+ "columns_exact": true,
+ "missing_cols": [],
+ "missing_rows": 0,
+ "extra_rows": 0,
+ "col_errors": {},
+ "examples": [],
+ "suspicious": false
+}

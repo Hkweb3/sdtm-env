@@ -1,0 +1,13 @@
+{
+ "task": "AEX-01",
+ "domain": "AE",
+ "key": [
+  "USUBJID",
+  "AESPID"
+ ],
+ "style": "site_infer",
+ "traps": [],
+ "n_subjects": 14,
+ "n_records": 89,
+ "seed": 2007
+}

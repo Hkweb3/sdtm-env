@@ -1,0 +1,18 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-970-433-1514,LB,321,"Beta-HCG 12256 IU/L at WEEK 4 (2009-12-25) in a 77-year-old male; impossible/implausible value, verify sample or data entry"
+CTN-970-817-1768,DM,,DTHDTC/DTHFL show death on 2010-10-10 but RFENDTC is 2011-01-22 and many EX/LB/CM/DS records are dated after the death date
+CTN-970-817-1768,EX,3,"Xanomeline 54 mg dosing recorded 2011-01-13 to 2011-01-21, ~3 months after recorded death on 2010-10-10"
+CTN-970-817-1768,DS,1,Disposition 'PROTOCOL COMPLETED' on 2011-01-22 contradicts death on 2010-10-10
+CTN-970-817-1768,LB,163,"Lab sample dated 2010-10-12T13:10, after death on 2010-10-10; 40 post-death LB records exist for this subject"
+CTN-970-817-1768,CM,2,ATIVAN start 2010-10-12 is after the recorded death on 2010-10-10 (CM 3 and 7 also post-death)
+CTN-970-817-1768,EX,2,Exposure end date 2011-01-12 is after the recorded death on 2010-10-10
+CTN-970-310-3959,DM,,AGE 41 at first dose 2010-04-28 violates protocol inclusion criterion of age >= 50 at entry
+CTN-970-433-5249,AE,4,COMPLEX PARTIAL SEIZURES has AESHOSP=Y but AESER=N; hospitalization makes the event serious
+CTN-970-433-5249,AE,5,SYNCOPE has AESHOSP=Y but AESER=N; also duplicates SYNCOPE reported as AESEQ=3 on 2010-01-05
+CTN-970-433-9375,CM,8,"BENADRYL (diphenhydramine, anticholinergic) from 2009-09-30 with no end date spans treatment 2009-07-06 to 2009-12-29; prohibited medication"
+CTN-970-817-1768,CM,18,"ELAVIL (amitriptyline, strong anticholinergic) started 2010-10-04 during treatment and ongoing; prohibited medication"
+CTN-970-627-3686,AE,1,HYPERTENSION onset 2009-05-11 is ~6 months before first dose 2009-11-15; pre-treatment condition belongs in MH or start date is wrong
+CTN-970-359-3413,AE,1,"APPLICATION SITE PRURITUS onset 2010-01-08, before first dose/first patch application 2010-01-10; implausible"
+CTN-970-211-4455,AE,1,"ATRIOVENTRICULAR BLOCK SECOND DEGREE onset 2010-01-27, before first dose 2010-01-29"
+CTN-970-433-8299,AE,1,"HEADACHE onset 2009-12-15, before first dose 2009-12-16; verify treatment-emergent classification"
+CTN-970-211-4455,DS,2,"FINAL LAB VISIT dated 2010-01-20, before first dose 2010-01-29; all LB records for this subject are from screening 2010-01-20"

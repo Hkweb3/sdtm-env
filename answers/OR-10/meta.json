@@ -1,0 +1,24 @@
+{
+ "task": "OR-10",
+ "domain": "OR",
+ "kind": "open_review",
+ "out": "findings.csv",
+ "cap": 25,
+ "n_subjects": 26,
+ "n_records": 7,
+ "seed": 4103,
+ "types": [
+  "PROHIBITED_CM",
+  "SURGICAL_HISTORY_CONFLICT",
+  "AGE_INAPPROPRIATE_AE",
+  "SEX_SPECIFIC_LAB",
+  "SEX_SPECIFIC_CM",
+  "ARM_MISMATCH",
+  "SEX_SPECIFIC_AE"
+ ],
+ "key": [
+  "USUBJID",
+  "DOMAIN",
+  "SEQ"
+ ]
+}

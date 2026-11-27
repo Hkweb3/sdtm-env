@@ -1,0 +1,37 @@
+{
+ "task": "DR-03",
+ "domain": "DR",
+ "kind": "findings",
+ "key": [
+  "CHECK",
+  "USUBJID",
+  "DOMAIN",
+  "SEQ"
+ ],
+ "out": "findings.csv",
+ "n_subjects": 20,
+ "n_records": 15,
+ "n_natural": 4,
+ "planted": [
+  "LAB_VISIT_DATE",
+  "LAB_VISIT_DATE",
+  "AE_DATE_ORDER",
+  "AE_DUPLICATE",
+  "AE_DATE_ORDER",
+  "AE_DATE_ORDER",
+  "LAB_UNIT",
+  "AE_DATE_ORDER",
+  "AE_DATE_ORDER",
+  "AE_DATE_ORDER"
+ ],
+ "seed": 3002,
+ "by_check": {
+  "AE_DATE_ORDER": 7,
+  "AE_DUPLICATE": 1,
+  "SAE_CRITERIA": 4,
+  "DEATH_CONSISTENCY": 0,
+  "DOSE_AFTER_DISC": 0,
+  "LAB_UNIT": 1,
+  "LAB_VISIT_DATE": 2
+ }
+}

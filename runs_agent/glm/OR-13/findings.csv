@@ -1,0 +1,17 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-503-663-9284,AE,1,"Fatal AE (COMPLETED SUICIDE, AEOUT=FATAL, AESDTH=Y) has AESER=N; a fatal event must be flagged serious"
+DRX-503-795-8144,AE,4,SYNCOPE has AESHOSP=Y but AESER=N; hospitalizing event must be flagged serious
+DRX-503-437-3283,AE,4,DELIRIUM has AESHOSP=Y but AESER=N; hospitalizing event must be flagged serious
+DRX-503-572-2894,AE,1,HIP FRACTURE has AESHOSP=Y but AESER=N; hospitalizing event must be flagged serious
+DRX-503-677-4027,AE,1,"DIZZINESS onset 1995-01, ~19 years before first dose (2014-02-05); pre-existing condition should be MH, not AE"
+DRX-503-156-3949,AE,8,"DYSPEPSIA onset 2012-11, ~18 months before first dose (2014-05-30); not treatment-emergent"
+DRX-503-156-3949,AE,9,"DEPRESSED MOOD onset 2014-05-05, before first dose on 2014-05-30; not treatment-emergent"
+DRX-503-663-3449,AE,11,"APPLICATION SITE IRRITATION onset 2014-07-20, 11 days before first patch application (2014-07-31)"
+DRX-503-156-3949,MH,25,"THERMAL BURN dated 1952, before subject birth date 1956-09-27; impossible"
+DRX-503-663-9284,MH,7,"EYE LASER SURGERY date recorded as ""20""; invalid/incomplete year"
+DRX-503-437-3283,CM,7,OLANZAPINE started 2014-04-09 and ongoing during treatment; anticholinergic agent prohibited by protocol
+DRX-503-463-7290,LB,219,Potassium 6.3 mmol/L (critical hyperkalaemia) at Week 16 with no repeat/confirm; please verify
+DRX-503-156-9817,LB,68,"Glucose 16.71 mmol/L (~300 mg/dL) at Week 2; critical value, please verify"
+DRX-503-437-5590,CM,6,Lorazepam entered as 9 separate CM records (CMSEQ 6-14) with back-to-back date ranges; confirm and consolidate
+DRX-503-156-3949,MH,9,"HYPOAESTHESIA duplicated in MH (MHSEQ 4, 9 and 18); confirm distinct events"
+DRX-503-946-8358,MH,7,BLINDNESS UNILATERAL duplicated in MH (MHSEQ 4 and 7); confirm distinct events

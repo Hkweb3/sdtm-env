@@ -1,0 +1,15 @@
+{
+ "task": "MH-02",
+ "domain": "MH",
+ "key": [
+  "USUBJID",
+  "MHSPID"
+ ],
+ "style": "compact",
+ "traps": [
+  "catcodes"
+ ],
+ "n_subjects": 12,
+ "n_records": 68,
+ "seed": 1011
+}

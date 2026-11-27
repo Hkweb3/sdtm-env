@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-817-252-5217,AE,4,AE start 2009-01-25 is after subject death date 2009-01-15
+DRX-817-252-5217,AE,5,AE start 2009-02-03 is after subject death date 2009-01-15
+DRX-817-252-5217,AE,8,AE start 2009-03-28 is after subject death date 2009-01-15
+DRX-817-252-5217,AE,6,AE start 2009-02-03 is after subject death date 2009-01-15
+DRX-817-252-5217,AE,7,AE start 2009-03-28 is after subject death date 2009-01-15
+DRX-817-252-5217,DS,1,Disposition event 2009-03-28 is after subject death date 2009-01-15
+DRX-817-252-5217,DS,2,Disposition event 2009-03-28 is after subject death date 2009-01-15
+DRX-817-252-5217,LB,134,Lab collected 2009-02-01 after subject death date 2009-01-15
+DRX-817-252-5217,LB,179,Lab collected 2009-02-28 after subject death date 2009-01-15
+DRX-817-252-5217,LB,215,Lab collected 2009-03-28 after subject death date 2009-01-15
+DRX-817-252-5217,LB,109,Lab collected 2009-01-17 after subject death date 2009-01-15
+DRX-817-252-5217,LB,127,Lab collected 2009-01-17 after subject death date 2009-01-15
+DRX-817-252-5217,LB,118,Lab collected 2009-01-17 after subject death date 2009-01-15
+DRX-817-252-5217,LB,161,Lab collected 2009-02-28 after subject death date 2009-01-15
+DRX-817-252-5217,LB,198,Lab collected 2009-03-28 after subject death date 2009-01-15
+DRX-817-252-5217,LB,209,Lab collected 2009-03-28 after subject death date 2009-01-15
+DRX-817-252-5217,LB,154,Lab collected 2009-02-01 after subject death date 2009-01-15
+DRX-817-252-5217,LB,173,Lab collected 2009-02-28 after subject death date 2009-01-15
+DRX-817-252-5217,LB,142,Lab collected 2009-02-01 after subject death date 2009-01-15
+DRX-817-252-5217,LB,212,Lab collected 2009-03-28 after subject death date 2009-01-15
+DRX-817-252-5217,LB,104,Lab collected 2009-01-17 after subject death date 2009-01-15
+DRX-817-252-5217,LB,196,Lab collected 2009-03-28 after subject death date 2009-01-15
+DRX-817-252-5217,LB,139,Lab collected 2009-02-01 after subject death date 2009-01-15
+DRX-817-252-5217,LB,106,Lab collected 2009-01-17 after subject death date 2009-01-15
+DRX-817-252-5217,LB,166,Lab collected 2009-02-28 after subject death date 2009-01-15

@@ -1,0 +1,19 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+PLX-574-773-6613,AE,12,AE onset 2015-07-03 is after the 2014-09-08 data cutoff and >1y after study end; impossible future date
+PLX-574-567-4422,EX,1,Subject randomized to Placebo but dosed with XANOMELINE 54 mg at baseline; treatment assignment error
+PLX-574-773-6573,LB,150,Serum potassium 14.5 mmol/L is medically implausible; all other K results for this subject are 4.1-4.7; probable data/unit error
+PLX-574-619-6620,DM,,Age 41 at entry violates protocol inclusion criterion of age >=50
+PLX-574-217-3972,AE,1,Dizziness onset 1994-05 is ~19 years before enrollment (2013-05-19); implausible onset date
+PLX-574-826-7322,AE,2,Headache onset 1986 is ~27 years before enrollment (2013-06-17); implausible onset date
+PLX-574-217-2244,AE,1,Enuresis onset 2013-06 precedes first dose (2014-02-01) by ~8 months; pre-treatment event
+PLX-574-353-6685,AE,1,WBC increased onset 2013-07-25 precedes first dose 2013-08-13; pre-treatment event
+PLX-574-353-6685,AE,2,Neutrophil count increased onset 2013-07-25 precedes first dose 2013-08-13; pre-treatment event
+PLX-574-353-6685,AE,3,Urine analysis abnormal onset 2013-07-25 precedes first dose 2013-08-13; pre-treatment event
+PLX-574-619-6620,AE,1,AV block second degree onset 2014-01-05 precedes first dose 2014-01-07; pre-treatment event
+PLX-574-773-6613,AE,1,Rash maculo-papular onset 2013-06-28 precedes first dose 2013-07-07; pre-treatment event
+PLX-574-773-6613,AE,2,Rash papular onset 2013-07-06 precedes first dose 2013-07-07; pre-treatment event
+PLX-574-217-2244,AE,2,Diarrhoea onset 2014-01-31 precedes first dose 2014-02-01; pre-treatment event
+PLX-574-619-6260,EX,2,Exposure ended 2012-12-22 but study end 2013-01-11; 20-day unexplained treatment gap
+PLX-574-472-2922,EX,1,Exposure ended 2013-08-03 but study end 2013-08-17; 2-week unexplained treatment gap after syncope
+PLX-574-353-6685,EX,2,Exposure ended 2013-10-31 but withdrawal recorded 2013-12-05; 5-week unexplained treatment gap
+PLX-574-837-8275,EX,2,Exposure ended 2014-07-22 but study end 2014-08-24; 4-week unexplained treatment gap

@@ -1,0 +1,15 @@
+{
+ "task": "DM-02",
+ "domain": "DM",
+ "key": [
+  "USUBJID"
+ ],
+ "style": "compact",
+ "traps": [
+  "sexcodes",
+  "racecodes"
+ ],
+ "n_subjects": 16,
+ "n_records": 16,
+ "seed": 1016
+}

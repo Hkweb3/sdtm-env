@@ -1,0 +1,8 @@
+{
+ "model": "glm",
+ "task": "DR-02",
+ "attempts": 2,
+ "error": "_infer\n  File \"C:\\Users\\krishna\\AppData\\Local\\Temp\\sdtm_vpmanwki\\solution.py\", line 187, in <lambda>\n    res[\"_seqsort\"] = res[\"SEQ\"].map(lambda x: -1 if x is None else int(x))\n                                                                    ~~~^^^\nValueError: cannot convert float NaN to integer\n",
+ "reward": 0.0,
+ "passed": false
+}

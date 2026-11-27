@@ -1,0 +1,12 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+PLX-574-567-4422,EX,1,Placebo-arm subject recorded as receiving XANOMELINE 54 mg at Baseline (EXTRT/EXDOSE inconsistent with randomized arm); unblinding/dosing error.
+PLX-574-773-6613,AE,12,"AE 'ALLERGIC GRANULOMATOUS ANGIITIS' starts 2015-07-03, after the 2014-09-08 data cutoff and >1 year after treatment end (2014-01-06); date or record erroneous."
+PLX-574-773-6573,LB,150,Potassium 14.5 mmol/L at Week 8 is incompatible with life; all other K results for this subject are 4.1-4.7 mmol/L - probable data entry error.
+PLX-574-619-6620,DM,,"Subject is 41 years old at entry (born 1972-06-08), violating the key inclusion criterion of age >= 50; ineligible subject was enrolled and dosed."
+PLX-574-472-2922,AE,1,Syncope with AESHOSP=Y but AESER=N; an event requiring hospitalization must be flagged serious.
+PLX-574-472-2922,AE,3,Syncope with AESHOSP=Y but AESER=N; an event requiring hospitalization must be flagged serious.
+PLX-574-472-2922,LB,38,"Entire 'WEEK 2' panel (all 8 tests) drawn 2013-08-17 = study day 24, the discontinuation date; visit label wrong (should be Week 4 / early termination)."
+PLX-574-472-2922,EX,1,Exposure record ends 2013-08-03 but RFENDTC is 2013-08-17; dosing records for the final 2 weeks (incl. Week 2 period) are missing.
+PLX-574-353-6685,EX,2,Exposure record ends 2013-10-31 but subject remained on study to 2013-12-05 (RFENDTC); exposure records for the last 5 weeks are missing.
+PLX-574-826-7322,LB,263,Bilirubin result (LBSTRESN) is missing although a Week 24 sample is dated 2013-12-01; please provide the result or clarify.
+PLX-574-837-2279,LB,41,Bilirubin result (LBSTRESN) is missing although a Week 4 sample is dated 2013-08-22; please provide the result or clarify.

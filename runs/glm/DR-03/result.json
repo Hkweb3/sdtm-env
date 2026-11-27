@@ -1,0 +1,14 @@
+{
+ "model": "glm",
+ "task": "DR-03",
+ "attempts": 2,
+ "error": null,
+ "reward": 1.0,
+ "passed": true,
+ "tp": 15,
+ "fp": 0,
+ "fn": 0,
+ "col_errors": {},
+ "examples": [],
+ "suspicious": false
+}

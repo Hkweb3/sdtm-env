@@ -1,0 +1,16 @@
+{
+ "model": "glm",
+ "task": "OR-07",
+ "turns": 16,
+ "reward": 0.8333,
+ "passed": false,
+ "error": null,
+ "found": 5,
+ "planted": 6,
+ "rows": 15,
+ "col_errors": {
+  "missed SURGICAL_HISTORY_CONFLICT": 1
+ },
+ "examples": [],
+ "suspicious": false
+}

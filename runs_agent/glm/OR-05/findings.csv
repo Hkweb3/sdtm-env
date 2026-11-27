@@ -1,0 +1,24 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+MRN-611-558-1008,DM,,"Age 17 at entry (BRTHDTC 1996-03-21, RFSTDTC 2013-08-28): violates key inclusion criterion of age >=50"
+MRN-611-509-2954,DM,,"DTHFL=Y/DTHDTC 2013-03-11 but RFENDTC, disposition and final lab visit dated 2013-06-25 and 40 LB records fall after death"
+MRN-611-128-4078,EX,3,"Placebo subject dosed with XANOMELINE 540 mg (WEEK 24, 2013-08-13/2013-08-26): wrong treatment and impossible dose for patch (max 81 mg)"
+MRN-611-154-5399,AE,1,APPLICATION SITE IRRITATION onset 2015-03-12: after data cutoff 2014-12-17 and ~18 months after subject's study end 2013-09-01
+MRN-611-509-2954,LB,96,"Sodium 240 mmol/L (WEEK 4): value incompatible with life, implausible"
+MRN-611-509-2954,DS,1,"Disposition 'LEAVING AREA FOR 5 MONTHS' dated 2013-06-25, ~3.5 months after recorded death 2013-03-11"
+MRN-611-509-2954,AE,5,INFLUENZA onset 2013-05-25 / end 2013-05-31: starts ~2.5 months after recorded death 2013-03-11
+MRN-611-509-2954,LB,144,"Lab collected 2013-03-13, after recorded death 2013-03-11; earliest of 40 post-death LB records for this subject"
+MRN-611-714-4911,DM,,Randomized with RFSTDTC 2013-07-13 / RFENDTC 2013-11-04 but no EX exposure records at all; dosing data missing
+MRN-611-323-9629,AE,1,"DIZZINESS onset 1994-04, ~19 years before first dose 2013-04-18: pre-existing condition should be medical history or date is wrong"
+MRN-611-154-7644,AE,3,"GLAUCOMA onset 1992, ~20 years before first dose 2012-08-30: pre-existing condition should be medical history or date is wrong"
+MRN-611-154-5399,AE,7,OEDEMA PERIPHERAL 2013-07-04/2013-09-01 lies entirely within AESEQ 6 same term (2013-02-15/2013-09-01): duplicate AE record
+MRN-611-622-6502,AE,4,APPLICATION SITE ERYTHEMA from 2013-01-13 ongoing duplicates AESEQ 2 same term ongoing since 2013-01-06
+MRN-611-622-6502,AE,3,APPLICATION SITE PRURITUS 2013-01-13/2013-01-17 duplicates AESEQ 1 same term ongoing since 2013-01-06
+MRN-611-902-1436,AE,1,"WHITE BLOOD CELL COUNT INCREASED onset 2013-06-24, 19 days before first dose 2013-07-13: pre-treatment onset"
+MRN-611-902-1436,AE,2,"NEUTROPHIL COUNT INCREASED onset 2013-06-24, 19 days before first dose 2013-07-13: pre-treatment onset"
+MRN-611-902-1436,AE,3,"URINE ANALYSIS ABNORMAL onset 2013-06-24, 19 days before first dose 2013-07-13: pre-treatment onset"
+MRN-611-778-7154,AE,1,"HYPERTENSION onset 2012-07-10, ~6 months before first dose 2013-01-14: pre-existing condition logged as AE or date error"
+MRN-611-622-3101,AE,1,"ONYCHOMYCOSIS onset 2014-04-30, 9 days before first dose 2014-05-09: pre-treatment onset"
+MRN-611-622-3101,AE,2,"CYST onset 2014-04-30, 9 days before first dose 2014-05-09: pre-treatment onset"
+MRN-611-154-5079,AE,1,"ATRIOVENTRICULAR BLOCK SECOND DEGREE onset 2013-12-05, 2 days before first dose 2013-12-07: pre-treatment onset"
+MRN-611-154-5399,LB,5,"SCREENING 1 labs collected 2012-11-30, 90 days before first dose 2013-02-28: far outside screening window (all 8 screening analytes)"
+MRN-611-154-2253,AE,1,APPLICATION SITE IRRITATION end 2012-12-20 is after subject end of participation RFENDTC 2012-12-11: verify dates
