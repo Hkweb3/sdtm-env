@@ -29,7 +29,7 @@ from sdtmenv.check import score
 ROOT = Path(__file__).resolve().parent.parent
 TASKS = ROOT / "tasks"
 RUNS = ROOT / "runs"
-ENV = Path.home() / "projects" / "business" / "formerly" / ".env"
+ENV = Path(os.environ["SDTMENV_ENV_FILE"]) if "SDTMENV_ENV_FILE" in os.environ else ROOT / ".env"
 OUT_NAME = {"AE": "ae.csv", "AEX": "ae.csv", "MH": "mh.csv", "DM": "dm.csv", "ADAE": "adae.csv", "LB": "lb.csv",
             "DR": "findings.csv", "OR": "findings.csv"}
 
@@ -51,14 +51,20 @@ API = {"river": ("https://api.river.ai/v1/chat/completions", "RIVER_API_KEY"),
 
 def load_keys():
     keys = {}
-    for line in ENV.read_text().splitlines():
-        if "=" in line and not line.startswith("#"):
-            k, v = line.split("=", 1)
-            keys[k.strip()] = v.strip().strip('"')
+    if ENV.is_file():
+        for line in ENV.read_text(encoding="utf-8").splitlines():
+            if "=" in line and not line.lstrip().startswith("#"):
+                k, v = line.split("=", 1)
+                keys[k.strip()] = v.strip().strip('"').strip("'")
+    keys.update(os.environ)
     return keys
 
 
-KEYS = load_keys()
+def require_key(key_name):
+    val = load_keys().get(key_name)
+    if not val:
+        raise RuntimeError(f"Missing {key_name}: set it in the environment or in {ENV}")
+    return val
 
 
 def chat(model, messages):
@@ -67,10 +73,10 @@ def chat(model, messages):
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{name}:generateContent"
         body = {"contents": [{"role": "user" if m["role"] == "user" else "model", "parts": [{"text": m["content"]}]}
                              for m in messages]}
-        headers = {"x-goog-api-key": KEYS["GEMINI_API_KEY"]}
+        headers = {"x-goog-api-key": require_key("GEMINI_API_KEY")}
     else:
         url, key_name = API[provider]
-        key = KEYS[key_name]
+        key = require_key(key_name)
         body = {"model": name, "messages": messages, "temperature": 0.2, "max_tokens": 32000}
         headers = {"Authorization": f"Bearer {key}"}
     headers["Content-Type"] = "application/json"

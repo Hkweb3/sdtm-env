@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdtm-env"
+version = "0.1.0"
+description = "Clinical-trial data mapping (CDISC SDTM/ADaM) and open-ended clinical review RL environment with deterministic, hack-tested graders."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["sdtmenv*"]

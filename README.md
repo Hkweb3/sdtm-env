@@ -39,6 +39,16 @@ Agent tasks: turn raw clinical-trial data into CDISC SDTM and ADaM datasets, and
 | `sdtmenv/run_models.py` | Model harness: the model writes a script, it runs in a scratch copy, then gets graded |
 | `sdtmenv/summary.py` | Re-grades all saved runs |
 
+## Setup
+
+Python 3.10+ and `pandas`:
+
+```
+pip install -e .
+```
+
+To run models (`run_models` or `agent`), set the relevant provider key in your environment or in a local `.env` file (`OPENROUTER_API_KEY`, `DEEPSEEK_API_KEY`, `GEMINI_API_KEY`, or `RIVER_API_KEY`). Grading, reference solver, and reward-hack checks run locally with no API keys.
+
 ## Commands
 
 ```
@@ -50,6 +60,7 @@ python -m sdtmenv.generate4 --v3   # rebuild tier 4c (hard mode, OR-13..15)
 python -m sdtmenv.solve         # reference solver: must pass 51/51
 python -m sdtmenv.attack        # every attack must stay far below 1.0 and never pass
 python -m sdtmenv.run_models kimi glm --tasks AE-01
+python -m sdtmenv.agent kimi --tasks OR-13 OR-14 OR-15 --turns 16
 python -m sdtmenv.summary
 ```
 
@@ -72,3 +83,9 @@ After these fixes no attack passes any of the 42 tasks. Identifier-only and copy
 - The answers sit on the same disk as the harness. In delivery, the grader must run outside the agent's container (as in verifiers/OpenEnv), or an agent can search the filesystem for `expected.csv`. `run_models.py` flags scripts that mention `answers` or `expected.csv`, but that's only a tripwire.
 - MedDRA coding is given (`CODED_PT`, `CODED_SOC`); coding from verbatim is a possible harder tier.
 - Pilot01 is a single Alzheimer's study, so term variety is limited; more public studies would widen it.
+
+## Licensing & private task packs
+
+All rights reserved. This repository is published for inspection and evaluation only — not for commercial reuse or model training without permission.
+
+For private unseen clinical/bio RL task packs (multi-study, container-isolated grading, MedDRA coding, custom therapeutic areas) or pre-delivery verifier/reward-hack audits, reach out via [GitHub](https://github.com/Hkweb3) or [harikrishna-notes.vercel.app](https://harikrishna-notes.vercel.app).
