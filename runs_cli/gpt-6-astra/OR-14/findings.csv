@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-452-118-9419,CM,3,"SYNTHROID is recorded as 100 mg orally daily, an implausibly high levothyroxine dose; verify dose and unit against source (100 micrograms would equal 0.1 mg)."
+DRX-452-273-4264,AE,3,COLON CANCER has AESCAN=Y and AESHOSP=Y but AESER=N; reconcile the seriousness classification and SAE reporting.
+DRX-452-548-2810,AE,2,TRANSIENT ISCHAEMIC ATTACK has AESHOSP=Y but AESER=N; hospitalization contradicts the non-serious classification; verify SAE reporting.
+DRX-452-708-2952,AE,4,PROSTATE CANCER has AESCAN=Y but AESER=N; reconcile the positive seriousness criterion with the non-serious classification and SAE reporting.
+DRX-452-708-6319,AE,1,MALIGNANT FIBROUS HISTIOCYTOMA has AESCAN=Y but AESER=N; reconcile the positive seriousness criterion with the non-serious classification and SAE reporting.
+DRX-452-361-9770,AE,9,GASTROENTERITIS VIRAL has AESHOSP=Y but AESER=N; hospitalization contradicts the non-serious classification; verify SAE reporting.
+DRX-452-361-1825,CM,8,"VITAMIN B12 is recorded as 1000 mg intramuscularly monthly, an implausible replacement dose; verify whether the intended unit is micrograms (1000 micrograms = 1 mg)."
+DRX-452-760-1204,CM,6,"VITAMIN B12 is recorded as 1000 mg intramuscularly, an implausible replacement dose; verify whether the intended unit is micrograms (1000 micrograms = 1 mg)."
+DRX-452-273-2309,CM,1,"NORVASC (amlodipine) is recorded as 25 mg daily, above the usual adult maximum of 10 mg/day; verify the dose and possible decimal error."
+DRX-452-708-6699,AE,6,"HYPOGLYCAEMIA starts 2013-07-06, but same-day glucose is 16.70851 mmol/L (LBSEQ 178), indicating hyperglycaemia; reconcile the diagnosis, lab result and event timing."
+DRX-452-708-6319,AE,4,"HYPONATRAEMIA starts 2012-07-07, but same-day sodium is 149 mmol/L (LBSEQ 126), indicating hypernatraemia; reconcile the diagnosis, lab result and event timing."
+DRX-452-118-9419,AE,5,GASTRITIS in August 2013 conflicts with TOTAL GASTRECTOMY in 1982 (MHSEQ 8); verify the AE diagnosis and whether the historical surgery was total or partial.
+DRX-452-277-1428,AE,6,"DELAYED PUBERTY is recorded as a new event on 2013-04-23 in a 68-year-old man; verify the diagnosis, onset date and subject assignment."
+DRX-452-708-1615,AE,4,"ERECTILE DYSFUNCTION is recorded for a subject with SEX=F in DM; reconcile the event term, demographic information and subject assignment."
+DRX-452-816-4599,CM,4,"YASMIN (drospirenone/ethinylestradiol contraceptive) is recorded for a 73-year-old subject with SEX=M; verify medication identity, indication and subject assignment."
+DRX-452-760-1404,MH,8,"BTL is coded as FEMALE STERILISATION, but DM records SEX=M; reconcile the surgical history, coding and subject assignment."
+DRX-452-118-2441,MH,11,"MALIGNANT TUMOUR EXCISION is dated 1923, before the subject's birth on 1929-09-22; verify the surgery year and subject assignment."
+DRX-452-782-1317,CM,7,"SYNTHROID is recorded as 0.02 ug every morning, an implausibly small levothyroxine dose for hypothyroidism; verify the decimal and dose unit."
+DRX-452-759-8552,CM,4,"HYDROCORTISONE, TOPICAL is recorded with route ORAL and dose 1 IU; the route and unit conflict with the named topical preparation; verify formulation, route and dose."
+DRX-452-708-2952,CM,3,"LIDEX is recorded at 0.5%, ten times the usual 0.05% fluocinonide strength; verify the product and decimal in the concentration."
+DRX-452-708-6699,CM,6,"LIDEX is recorded at 0.5%, ten times the usual 0.05% fluocinonide strength; verify the product and decimal in the concentration."
+DRX-452-782-1317,CM,3,"DYAZIDE is recorded as 2 mg every morning, inconsistent with the usual fixed-dose capsule formulation; verify whether 2 capsules was intended and confirm the strength."
+DRX-452-708-2952,AE,5,"APPLICATION SITE ERYTHEMA is dated 2012-01-22 to 2012-01-24, before first study patch exposure on 2012-02-01 (EXSEQ 1); verify dates and the product/application site involved."
+DRX-452-708-1615,MH,10,"HYPERTENSION is classified as a historical diagnosis but starts in 2012-10, after first dose on 2012-09-30; verify onset and whether it should be recorded as an on-study AE."
+DRX-452-708-1615,CM,5,"VITAMIN E dose is 400 with CMDOSU=IN, which is not a meaningful oral vitamin dose unit; verify whether IU was intended."

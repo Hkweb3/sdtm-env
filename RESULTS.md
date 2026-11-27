@@ -100,4 +100,19 @@ The agents do real review work and use all 16 turns: they find genuine natural i
 
 Grader fix: the AE-vs-lab problem first counted a citation of the lab record, so flagging the lab merely as high scored the problem without the contradiction. Only the AE record counts now (inputs unchanged; runs re-graded, which lowered GLM from 0.38/0.33 to 0.25/0.22).
 
-Not yet run on frontier models (Claude Opus 5.5, GPT-6.1, Gemini 4 Argon): `run_models.MODELS` has them via OpenRouter, but no `OPENROUTER_API_KEY` is set.
+## Frontier CLI agents on Tier 4c (OR-13..15; 2026-11-27)
+
+Run locally via `sdtmenv/run_cli_agents.py` in isolated temp workspaces (copying only `spec.md` and `input/`; full coding-agent tools, `effort=high`, no turn cap; every transcript audited with `suspicious=False`). Note the harness difference from the 16-turn `agent.py` loop above.
+
+| Model (CLI) | OR-13 | OR-14 | OR-15 | Total | Passed |
+|---|---|---|---|---|---|
+| `claude-opus-5-5` (Claude Code 2.1.332, high) | 8/8 | 9/9 | 8/9 | **25/26 (96.2%)** | 2/3 |
+| `gpt-6-astra` (Codex 0.172.0, high) | 7/8 | 9/9 | 9/9 | **25/26 (96.2%)** | 2/3 |
+| `gpt-6.2-sol` (Codex 0.172.0, high) | 6/8 | 8/9 | 7/9 | **21/26 (80.8%)** | 0/3 |
+
+What the misses actually were (verified by reading `runs_cli/<model>/<task>/findings.csv`):
+- `claude-opus-5-5`: 1 genuine miss (`APP_SITE_BEFORE_PATCH` in OR-15).
+- `gpt-6-astra`: 1 genuine miss (`WRONG_SOC` in OR-13).
+- `gpt-6.2-sol`: 2 genuine misses (`WRONG_SOC` in OR-13, `ABSENT_ORGAN` in OR-14) plus **3 grader-attribution misses** on `AE_LAB_CONTRADICTION` (OR-13 AE 10, OR-15 AE 8 & AE 12) where it explicitly caught the AE-vs-lab contradiction in `ISSUE` text (e.g. *"Potassium was 6.3 mmol/L on 2014-05-16, the onset date of hypokalaemia in AE 10"*) but filed the row under `DOMAIN=LB` instead of `DOMAIN=AE`. Counting those 3 puts `gpt-6.2-sol` at **24/26 (92.3%)**.
+
+Takeaway: Tier 4c cleanly separates mid-tier 16-turn models (12–23%) from frontier coding agents, which **near-saturate** it (92–96%) on 24-subject Pilot01 CSVs when graded on recall within a 25-row cap. Staying ahead of frontier models requires Tier 5: larger multi-study cohorts, precision+recall (F1) grading with adjudicated ground truth, unstructured clinical narratives / verbatim MedDRA coding, and protocol-complex domains (oncology RECIST/CTCAE, PK/DDI adjudication).

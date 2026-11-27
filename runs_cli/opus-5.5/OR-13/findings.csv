@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-503-663-9284,AE,1,Fatal AE COMPLETED SUICIDE has AESDTH=Y and AEOUT=FATAL but AESER=N; also AEENDTC 2015-08-07 does not match DTHDTC 2015-08-08
+DRX-503-572-2894,AE,1,Severe HIP FRACTURE with AESHOSP=Y (hospitalization) but AESER=N; also outcome NOT RECOVERED despite end date 2015-01-29
+DRX-503-437-3283,AE,4,DELIRIUM flagged AESHOSP=Y (hospitalization) but AESER=N - seriousness inconsistent
+DRX-503-795-8144,AE,4,SYNCOPE flagged AESHOSP=Y (hospitalization) but AESER=N - seriousness inconsistent
+DRX-503-437-3283,CM,7,OLANZAPINE (strong anticholinergic activity) started 2014-04-09 while on study (RFENDTC 2014-05-13) - prohibited medication per protocol
+DRX-503-946-8358,MH,9,TURP (transurethral prostatectomy) recorded for a female subject - sex-inconsistent history
+DRX-503-396-5659,MH,10,Radical prostatectomy 1992 is incompatible with later BPH and TURP in 2010 (MHSEQ 7/8) and BPH AE in 2013 (AESEQ 4)
+DRX-503-156-5371,MH,7,"Total laryngectomy 1987 is incompatible with on-study AE VOCAL CORD POLYP (AESEQ 3, 2014-07-30) - no vocal cords remain"
+DRX-503-572-2894,MH,9,"Total laryngectomy for SCC larynx in 1951 (age 25) incompatible with on-study AE VOCAL CORD POLYP (AESEQ 4, 2014-12-12)"
+DRX-503-463-7290,AE,10,"AE HYPOKALAEMIA starting 2014-05-16 contradicts same-day potassium 6.3 mmol/L (LBSEQ 219), i.e. hyperkalaemia"
+DRX-503-663-3449,AE,11,APPLICATION SITE IRRITATION 2014-07-20 to 2014-07-22 occurred before first patch application (RFSTDTC 2014-07-31)
+DRX-503-156-3949,MH,25,THERMAL BURN dated 1952 precedes subject birth date 1956-09-27
+DRX-503-677-4027,AE,1,AE DIZZINESS start date 1995-01 is ~19 years before first dose (2014-02-05); pre-existing condition (MH) or date error
+DRX-503-463-7290,AE,2,HYPERHIDROSIS coded to RENAL AND URINARY DISORDERS - incorrect SOC (should be SKIN AND SUBCUTANEOUS TISSUE DISORDERS)
+DRX-503-324-5161,CM,1,NORVASC (amlodipine) 25 mg QD exceeds maximum labelled dose of 10 mg/day - implausible dose
+DRX-503-156-3949,AE,9,"AE DEPRESSED MOOD starts 2014-05-05, before first dose 2014-05-30, and duplicates pre-existing MH DEPRESSED MOOD"
+DRX-503-156-3949,AE,8,"AE DYSPEPSIA starts 2012-11, before first dose 2014-05-30, and duplicates MH DYSPEPSIA - should be medical history"
+DRX-503-463-7290,LB,219,Potassium 6.3 mmol/L is an isolated outlier vs all other values 4.3-5.1 and conflicts with reported hypokalaemia AE same day
+DRX-503-395-5527,AE,3,VENTRICULAR SEPTAL DEFECT (congenital disorder) reported as new-onset AE in an 82-year-old - implausible; verify term/MH
+DRX-503-395-1790,EX,2,High dose 81 mg continued until study day 186 (2014-08-13); protocol requires step-down to 54 mg at Week 24 (~day 169); total treatment 200 days > 26 weeks
+DRX-503-156-9817,MH,12,Alzheimer's disease diagnosed 2004-06-29 at age 46 - implausibly early onset; verify diagnosis date / birth date
+DRX-503-396-5659,DS,1,Discontinuation for dermal irritation at patch site (an adverse event) coded as WITHDRAWAL BY SUBJECT instead of ADVERSE EVENT
+DRX-503-463-7290,AE,1,DIARRHOEA outcome NOT RECOVERED/NOT RESOLVED but an end date (2014-04-23) is recorded - outcome/end date inconsistent
+DRX-503-677-4027,AE,4,APPLICATION SITE PERSPIRATION outcome NOT RECOVERED/NOT RESOLVED but end date 2014-07-22 recorded - inconsistent
+DRX-503-156-3949,MH,24,BREAST LUMP REMOVAL recorded for a male subject - verify

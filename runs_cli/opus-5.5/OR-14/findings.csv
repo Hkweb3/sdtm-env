@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-452-708-1615,AE,4,ERECTILE DYSFUNCTION reported for a female subject (DM SEX=F; MH hysterectomy) - sex/event inconsistency
+DRX-452-816-4599,CM,4,YASMIN (drospirenone/ethinylestradiol oral contraceptive) recorded for a 73-year-old male subject - sex/medication inconsistency
+DRX-452-760-1404,MH,8,BTL coded FEMALE STERILISATION recorded for a male subject (DM SEX=M) - sex/history inconsistency
+DRX-452-277-1428,AE,6,DELAYED PUBERTY reported in a 68-year-old man - medically implausible term; verify verbatim/coding
+DRX-452-118-2441,MH,11,"MALIGNANT TUMOUR EXCISION dated 1923, before subject birth date (1929-09-22) - impossible date"
+DRX-452-118-9419,AE,5,"GASTRITIS reported in a subject with history of TOTAL GASTRECTOMY (MHSEQ 8, 1982) - medically implausible"
+DRX-452-708-6699,AE,6,"HYPOGLYCAEMIA reported 2013-07-06 but glucose same day is 16.7 mmol/L (LBSEQ 178, hyperglycaemic); no antidiabetic CM - AE/lab inconsistent"
+DRX-452-708-6319,AE,4,"HYPONATRAEMIA reported 2012-07-07 but sodium same day is 149 mmol/L (LBSEQ 126, high); all other sodium values normal - AE/lab inconsistent"
+DRX-452-548-2810,AE,2,TRANSIENT ISCHAEMIC ATTACK flagged as requiring hospitalisation (AESHOSP=Y) but AESER=N - seriousness inconsistent
+DRX-452-361-9770,AE,9,GASTROENTERITIS VIRAL flagged AESHOSP=Y but AESER=N - seriousness inconsistent
+DRX-452-273-4264,AE,3,"COLON CANCER flagged AESHOSP=Y/AESCAN=Y but AESER=N, and outcome RECOVERED/RESOLVED within 3 days (2012-05-15 to 05-18) - implausible"
+DRX-452-708-2952,AE,5,"APPLICATION SITE ERYTHEMA starting 2012-01-22, before first patch application (RFSTDTC/EXSTDTC 2012-02-01) - impossible timing"
+DRX-452-273-4264,AE,2,PRURITUS start 2011-03-29 is ~9 months before first dose (2011-12-31) yet causality PROBABLE - probable start date error
+DRX-452-118-9419,AE,4,ARTHRITIS AE with start date 1976 (37 years before first dose); duplicates pre-existing MH ARTHRITIS - should be medical history not AE
+DRX-452-760-1404,AE,3,DERMATITIS ATOPIC AE with start date 1981; duplicates pre-existing MH DERMATITIS ATOPIC - should be medical history not AE
+DRX-452-273-2309,CM,1,NORVASC (amlodipine) 25 mg QD exceeds maximum dose of 10 mg/day - implausible dose
+DRX-452-118-9419,CM,3,"SYNTHROID (levothyroxine) 100 mg QD - implausible dose, likely 100 mcg (unit error)"
+DRX-452-782-1317,CM,7,SYNTHROID (levothyroxine) 0.02 ug every morning - implausible dose/unit (likely 0.025 mg or 25 mcg)
+DRX-452-759-8552,CM,4,"HYDROCORTISONE, TOPICAL recorded with route ORAL and unit IU - route/unit inconsistent with topical product"
+DRX-452-708-1615,MH,10,"HYPERTENSION onset 2012-10 is after first dose (2012-09-30) - new on-treatment condition should be reported as AE, not medical history"
+DRX-452-759-8552,AE,1,"RASH MACULO-PAPULAR starts 2012-10-02, before first dose (2012-10-11), and is pre-existing in MH, yet assessed POSSIBLE related - pre-treatment event/causality inconsistent"
+DRX-452-708-6319,AE,1,"MALIGNANT FIBROUS HISTIOCYTOMA (sarcoma, AESCAN=Y) graded MILD, AESER=N, with end date but NOT RECOVERED outcome - severity/seriousness/outcome inconsistent"
+DRX-452-361-1825,CM,8,"VITAMIN B12 1000 mg IM monthly - implausible dose, likely 1000 mcg (unit error)"
+DRX-452-760-1204,CM,6,"VITAMIN B12 1000 mg IM - implausible dose, likely 1000 mcg (unit error); frequency Q4S unclear"
+DRX-452-548-7889,CM,2,GLYBURIDE started with no diabetes in MH although glucose elevated since screening (up to 26.4 mmol/L) - missing medical history/indication

@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-502-633-9728,CM,3,"Synthroid is recorded as 100 mg once daily. Verify the source dose and unit, including whether 100 micrograms was intended."
+CTN-502-633-3563,AE,4,Complex partial seizures are marked as requiring hospitalization (AESHOSP=Y) but are classified as nonserious (AESER=N). Reconcile the seriousness flags.
+CTN-502-455-5604,LB,56,"Week 2 potassium is 6.2 mmol/L on 2014-06-20, the onset date of hypokalaemia in AESEQ 8. Verify the potassium result and the AE diagnosis and onset date."
+CTN-502-854-2404,AE,9,Hypotension is marked as requiring hospitalization (AESHOSP=Y) but is classified as nonserious (AESER=N). Reconcile the seriousness flags.
+CTN-502-633-3563,AE,5,Syncope is marked as requiring hospitalization (AESHOSP=Y) but is classified as nonserious (AESER=N). Reconcile the seriousness flags.
+CTN-502-854-2404,AE,5,Benign prostatic hyperplasia is classified as nonserious (AESER=N) despite a positive hospitalization flag. Clarify whether this event caused or prolonged an admission and reconcile the flags.
+CTN-502-744-5926,CM,1,"Aleve is recorded as 250 tablets per PRN dose. Verify the tablet strength, number taken per dose and dose unit."
+CTN-502-455-5604,CM,1,"Uncoded Pseudo-Chlor overlaps study treatment from 2014-06-06 through 2014-06-15. Confirm whether it contained chlorpheniramine, a strongly anticholinergic drug prohibited during treatment."
+CTN-502-883-9858,CM,2,Uncoded Coricidin D was used during treatment from 2015-06-22 through 2015-07-10. Confirm the exact product and whether it contained chlorpheniramine or another prohibited strongly anticholinergic ingredient.
+CTN-502-455-3612,LB,63,"Week 2 sodium is 148 mmol/L on 2014-03-22, the onset date of hyponatraemia in AESEQ 12. Verify the sodium result and the AE diagnosis and onset date."
+CTN-502-854-5064,AE,5,"Hip fracture is recorded as recovered on the day of onset, with no hospitalization or other seriousness criterion. Verify the diagnosis, outcome, end date and seriousness."
+CTN-502-775-5394,MH,11,"Transurethral resection of the prostate is recorded for a participant listed as female in DM. Verify the procedure, participant assignment and demographic record."
+CTN-502-647-7108,MH,12,Bilateral below-knee amputations in 1982 conflict with the subsequent ankle fracture in AESEQ 4. Verify the amputation level and laterality and the fracture site.
+CTN-502-455-6444,MH,8,Bilateral below-knee amputations in 1978 conflict with the subsequent ingrown toenail in AESEQ 6. Verify the amputation history and the AE term and site.
+CTN-502-744-3307,MH,12,"The face lift is dated 1931-09-19, before the recorded birth date of 1938-07-01. Verify the procedure date."
+CTN-502-854-2404,MH,6,"Asthma onset is recorded as 1925, before the recorded birth date of 1931-12-26. Verify the onset year."
+CTN-502-455-6444,AE,7,"A uterine leiomyoma is recorded in 2013 after a historical total abdominal hysterectomy in MHSEQ 9. Verify the anatomical site, diagnosis and surgical history."
+CTN-502-455-6444,MH,9,Total abdominal hysterectomy in 2001 is followed by another hysterectomy in September 2009 (MHSEQ 4). Verify the dates and procedure types and reconcile any duplicate entry.
+CTN-502-455-5604,AE,9,"Application-site erythema started on 2014-05-26 and resolved on 2014-05-28, before the first recorded study patch on 2014-06-06. Verify the dates and identify the application that caused the reaction."
+CTN-502-633-7752,CM,5,"Prednisone 1% is recorded as an ophthalmic medication. Verify the product and active ingredient, including whether prednisolone acetate 1% was intended."
+CTN-502-883-9858,CM,3,"Diprolene cream is recorded at 0.5%, ten times the usual 0.05% strength. Verify the actual product and concentration."
+CTN-502-744-5926,CM,5,"Psorcon is recorded as 0.5% (v/v), whereas the topical product is normally 0.05%. Verify the formulation, concentration and units."
+CTN-502-775-7686,CM,3,The topical hydrocortisone entry duplicates CMSEQ 2 in every reported field. Confirm whether these entries represent one course or two distinct courses.
+CTN-502-744-3307,AE,3,"The ankle fracture has no recorded laterality, and MHSEQ 17 documents a prior right below-knee amputation. Confirm that the fracture involved the left ankle or reconcile the anatomical site and history."
+CTN-502-854-7628,AE,2,"The ingrown toenail has no recorded laterality, and MHSEQ 8 documents a prior right below-knee amputation. Confirm that the event involved the left foot or reconcile the anatomical site and history."

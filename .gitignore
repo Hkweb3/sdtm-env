@@ -7,3 +7,5 @@ source/
 runs_buggy_harness/
 runs/log_*.txt
 runs_agent/log_*.txt
+runs_cli/**/transcript.jsonl
+runs_cli/**/stderr.txt

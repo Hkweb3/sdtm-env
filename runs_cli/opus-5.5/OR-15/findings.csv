@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-502-455-6444,AE,7,"Uterine leiomyoma reported on 2013-12-31 although MH records hysterectomy (2009-09, MHSEQ 4) and total abdominal hysterectomy (2001, MHSEQ 9); medically impossible"
+CTN-502-647-7108,AE,4,Ankle fracture (2014-02-03) in a subject with bilateral below-knee amputation since 1982 (MHSEQ 12); anatomically impossible
+CTN-502-455-6444,AE,6,Ingrown toenail (2014-02-02) in a subject with bilateral below-knee amputation since 1978 (MHSEQ 8); anatomically impossible
+CTN-502-775-5394,MH,11,TURP / transurethral prostatectomy (1980) recorded for a female subject (DM SEX=F); sex-inconsistent history
+CTN-502-744-3307,MH,12,"Face lift dated 1931-09-19, before the subject was born (BRTHDTC 1938-07-01)"
+CTN-502-854-2404,MH,6,"Asthma onset 1925, before the subject was born (BRTHDTC 1931-12-26)"
+CTN-502-455-5604,AE,8,"AE hypokalaemia starting 2014-06-20 but potassium that day is 6.2 mmol/L (LBSEQ 56, hyperkalaemia); AE term contradicts lab"
+CTN-502-455-3612,AE,12,"AE hyponatraemia starting 2014-03-22 but sodium that day is 148 mmol/L (LBSEQ 63, elevated); AE term contradicts lab"
+CTN-502-633-9728,CM,3,Synthroid (levothyroxine) 100 mg QD is implausible (~1000x usual dose); likely mcg recorded as mg
+CTN-502-744-5926,CM,1,Aleve dose recorded as 250 TABLET PRN; implausible dose/unit (likely 250 mg or 1 tablet)
+CTN-502-883-9858,CM,2,"Coricidin D (contains chlorpheniramine, strongly anticholinergic) taken 2015-06-22 to 2015-07-10 during treatment; protocol-prohibited medication"
+CTN-502-455-5604,CM,1,"Pseudo-Chlor (contains chlorpheniramine, strongly anticholinergic) taken 2014-06-05 to 2014-06-15, overlapping first dose 2014-06-06; protocol-prohibited medication"
+CTN-502-417-5902,AE,1,"Dizziness AE with onset 1995-05, 19 years before first dose (2014-05-31); pre-existing condition (also MHSEQ 2) should be MH, not AE"
+CTN-502-633-9728,AE,4,"Severe arthritis AE with onset 1978, decades before first dose (2014-12-17); pre-existing condition (MHSEQ 1) recorded as AE"
+CTN-502-854-2404,AE,9,Hypotension flagged as requiring hospitalization (AESHOSP=Y) but AESER=N; seriousness inconsistent
+CTN-502-854-2404,AE,5,Benign prostatic hyperplasia flagged AESHOSP=Y but AESER=N; seriousness inconsistent
+CTN-502-633-3563,AE,4,Complex partial seizures flagged AESHOSP=Y but AESER=N; seriousness inconsistent
+CTN-502-633-3563,AE,5,Syncope flagged AESHOSP=Y but AESER=N; seriousness inconsistent
+CTN-502-455-6444,MH,9,Total abdominal hysterectomy (2001) duplicates/conflicts with separate hysterectomy in 2009-09 (MHSEQ 4); a uterus cannot be removed twice
+CTN-502-854-5064,AE,5,"Hip fracture recorded as non-serious, moderate and resolved on the same day it started (2014-06-30) while dosing continued; clinically implausible"
+CTN-502-647-7108,AE,3,Ventricular septal defect (congenital disorder) reported as new-onset AE on 2014-02-18 in an 82-year-old; verify term/onset (likely pre-existing)
+CTN-502-744-8993,AE,3,"Localised infection AE starting 2013-08-07, two months before first dose (2013-10-07), and also recorded as pre-existing in MH (MHSEQ 6); pre-treatment condition reported as AE"
+CTN-502-744-5926,AE,1,Hiatus hernia AE on day 1 although hiatus hernia is a pre-existing condition in MH (MHSEQ 3); clarify worsening vs. duplicate of history
+CTN-502-750-6085,DM,,RFENDTC 2014-12-17 is 35 days after last recorded patch dose (EX end 2014-11-12) with no exposure records for that period; missing EX data or wrong end date
+CTN-502-744-5825,MH,12,"Alzheimer's disease diagnosis dated 1999-07-13, ~15 years before entry; questionable for mild-to-moderate AD entry criterion, verify date"

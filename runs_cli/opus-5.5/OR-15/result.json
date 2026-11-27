@@ -1,0 +1,20 @@
+{
+ "model": "opus-5.5",
+ "cli": "claude",
+ "model_id": "claude-opus-5-5",
+ "effort": "high",
+ "task": "OR-15",
+ "returncode": 0,
+ "elapsed_s": 246.7,
+ "suspicious": false,
+ "reward": 0.8889,
+ "passed": false,
+ "error": null,
+ "found": 8,
+ "planted": 9,
+ "rows": 25,
+ "col_errors": {
+  "missed APP_SITE_BEFORE_PATCH": 1
+ },
+ "examples": []
+}

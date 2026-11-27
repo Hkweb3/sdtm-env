@@ -1,0 +1,20 @@
+{
+ "model": "gpt-6-astra",
+ "cli": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "high",
+ "task": "OR-13",
+ "returncode": 0,
+ "elapsed_s": 152.6,
+ "suspicious": false,
+ "reward": 0.875,
+ "passed": false,
+ "error": null,
+ "found": 7,
+ "planted": 8,
+ "rows": 13,
+ "col_errors": {
+  "missed WRONG_SOC": 1
+ },
+ "examples": []
+}

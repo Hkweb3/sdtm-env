@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-452-273-4264,AE,3,Colon cancer is marked nonserious (AESER=N) despite hospitalization (AESHOSP=Y) and the cancer flag (AESCAN=Y). Confirm the seriousness classification.
+DRX-452-548-2810,AE,2,Transient ischaemic attack is marked nonserious (AESER=N) despite hospitalization (AESHOSP=Y). Confirm the seriousness classification.
+DRX-452-277-1428,AE,3,"A severe transient ischaemic attack occurred on the last recorded dosing day, with AESER=N and all seriousness criteria marked N. Confirm whether it met the medically important event criterion."
+DRX-452-361-9770,AE,9,Viral gastroenteritis is marked nonserious (AESER=N) despite hospitalization (AESHOSP=Y). Confirm whether it caused or prolonged inpatient hospitalization and reconcile the flags.
+DRX-452-708-2952,AE,4,New prostate cancer is marked AESCAN=Y and AESER=N. Confirm the seriousness classification for this malignancy.
+DRX-452-708-6319,AE,1,Malignant fibrous histiocytoma is marked AESCAN=Y and AESER=N. Confirm the seriousness classification for this malignancy.
+DRX-452-708-6699,AE,6,"Hypoglycaemia began on 2013-07-06, but same-day glucose was elevated at 16.70851 mmol/L (LBSEQ 178). Confirm the diagnosis and provide the glucose result and timing supporting the event."
+DRX-452-708-6319,AE,4,"Hyponatraemia began on 2012-07-07, but same-day sodium was elevated at 149 mmol/L (LBSEQ 126). Confirm the diagnosis and provide the sodium result and timing supporting the event."
+DRX-452-118-9419,CM,3,"Synthroid is recorded as 100 mg orally daily, an implausibly high levothyroxine dose. Verify whether the unit should be micrograms."
+DRX-452-361-1825,CM,8,"Vitamin B12 is recorded as 1000 mg intramuscularly monthly, an implausibly high dose. Verify whether the unit should be micrograms."
+DRX-452-760-1204,CM,6,"Vitamin B12 is recorded as 1000 mg intramuscularly per administration, an implausibly high dose. Verify whether the unit should be micrograms."
+DRX-452-273-2309,CM,1,"Norvasc (amlodipine) is recorded as 25 mg orally daily, above the usual adult maximum of 10 mg daily. Confirm the prescribed dose and decimal placement."
+DRX-452-782-1317,CM,7,"Synthroid is recorded as 0.02 micrograms orally each morning, an implausibly low levothyroxine dose. Confirm the dose and unit."
+DRX-452-118-2441,MH,11,"Malignant tumour excision is dated 1923, before the recorded birth date of 1929-09-22. Verify the surgery year and subject assignment."
+DRX-452-760-1404,MH,8,"BTL is coded as female sterilisation, while DM records male sex. Confirm what BTL denotes and verify the coding and subject assignment."
+DRX-452-708-1615,AE,4,Erectile dysfunction is recorded for a participant with female sex in DM and a hysterectomy in MH. Confirm the clinical term and subject assignment.
+DRX-452-277-1428,AE,6,Delayed puberty reportedly began and resolved within nine days in a participant aged 68 at entry. Verify the clinical term and dates.
+DRX-452-816-4599,CM,4,"Yasmin (drospirenone and ethinylestradiol) is recorded as daily treatment in a 73-year-old participant with male sex in DM. Confirm the drug, indication and subject assignment."
+DRX-452-273-4264,AE,2,"Pruritus onset is dated 2011-03-29, nine months before first exposure on 2011-12-31, yet the relationship is recorded as probable. Confirm the onset or worsening date and causality."
+DRX-452-708-2952,AE,5,"Application site erythema is recorded on 2012-01-22 through 2012-01-24, before the first recorded study patch on 2012-02-01. Confirm the application involved and the event dates."
+DRX-452-759-8552,AE,12,"Allergic granulomatous angiitis is recorded as mild and fully resolved on the day of onset, an implausible course for this vasculitis. Confirm the diagnosis and outcome dates."
+DRX-452-759-8552,CM,4,"The verbatim drug is HYDROCORTISONE, TOPICAL, but the route is ORAL and the dose is 1 IU. Confirm the formulation, route and dose unit."
+DRX-452-273-4264,LB,38,The Week 2 bilirubin record has a unit of umol/L but no numeric result. Supply the result or confirm that testing was not done or the result was unavailable.
+DRX-452-760-2351,DS,2,"The final lab visit is dated 2012-06-12, but the latest lab panel in LB is dated 2012-06-05. Confirm the final lab visit date and whether a panel is missing."
+DRX-452-708-4559,EX,3,"The last placebo interval ends on 2014-02-07, making 198 recorded dosing days from 2013-07-25 versus the planned 182 days. Confirm the actual last patch date and reason for the extended dosing."

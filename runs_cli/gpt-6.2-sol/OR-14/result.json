@@ -1,0 +1,20 @@
+{
+ "model": "gpt-6.2-sol",
+ "cli": "codex",
+ "model_id": "gpt-6.2-sol",
+ "effort": "high",
+ "task": "OR-14",
+ "returncode": 0,
+ "elapsed_s": 242.9,
+ "suspicious": false,
+ "reward": 0.8889,
+ "passed": false,
+ "error": null,
+ "found": 8,
+ "planted": 9,
+ "rows": 25,
+ "col_errors": {
+  "missed ABSENT_ORGAN": 1
+ },
+ "examples": []
+}

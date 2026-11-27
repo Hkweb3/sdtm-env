@@ -1,0 +1,14 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+DRX-503-663-9284,AE,1,Completed suicide is recorded as FATAL with AESDTH=Y but AESER=N; reconcile the seriousness flag and confirm SAE reporting.
+DRX-503-572-2894,AE,1,Hip fracture has AESHOSP=Y but AESER=N; hospitalization meets a seriousness criterion regardless of the event severity.
+DRX-503-437-3283,AE,4,Delirium has AESHOSP=Y but AESER=N; reconcile the contradictory hospitalization and seriousness flags.
+DRX-503-795-8144,AE,4,Syncope has AESHOSP=Y but AESER=N; hospitalization makes the event serious even though AESEV is MILD.
+DRX-503-463-7290,AE,10,"HYPOKALAEMIA begins on 2014-05-16, but same-day potassium is 6.3 mmol/L (LBSEQ 219), indicating hyperkalaemia; verify the AE diagnosis and laboratory result."
+DRX-503-324-5161,CM,1,"NORVASC (amlodipine) is recorded as 25 mg once daily, exceeding the usual adult maximum of 10 mg/day; verify the dose and possible missing decimal point."
+DRX-503-663-9284,AE,1,"Fatal completed suicide ends on 2015-08-07, whereas DM.DTHDTC and the DS death event (DSSEQ 1) are 2015-08-08; reconcile the event end date with the actual death date."
+DRX-503-156-5371,AE,3,"Vocal cord polyp in 2014 conflicts with total laryngectomy in 1987 (MHSEQ 7), which removes the vocal cords; verify the event anatomy and prior operation."
+DRX-503-572-2894,AE,4,"Vocal cord polyp in 2014 conflicts with total laryngectomy in 1951 (MHSEQ 9), which removes the vocal cords; verify the event and surgical history."
+DRX-503-396-5659,AE,4,Benign prostatic hyperplasia in 2013 conflicts with radical prostatectomy in 1992 (MHSEQ 10); reconcile the surgery with this AE and the later BPH/TURP history (MHSEQ 7-8).
+DRX-503-946-8358,MH,9,"TURP is coded as transurethral prostatectomy, but DM records SEX=F; verify the procedure, subject attribution, and demographic information."
+DRX-503-156-3949,MH,25,"Thermal burn is dated 1952, before the recorded birth date of 1956-09-27; verify the history date or date of birth."
+DRX-503-663-3449,AE,11,"Application site irritation is dated 2014-07-20 to 2014-07-22, entirely before first study-patch exposure on 2014-07-31 (EXSEQ 1); verify dates and whether another topical exposure caused the event."

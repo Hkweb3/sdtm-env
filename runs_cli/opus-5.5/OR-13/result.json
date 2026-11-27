@@ -1,0 +1,18 @@
+{
+ "model": "opus-5.5",
+ "cli": "claude",
+ "model_id": "claude-opus-5-5",
+ "effort": "high",
+ "task": "OR-13",
+ "returncode": 0,
+ "elapsed_s": 216.5,
+ "suspicious": false,
+ "reward": 1.0,
+ "passed": true,
+ "error": null,
+ "found": 8,
+ "planted": 8,
+ "rows": 25,
+ "col_errors": {},
+ "examples": []
+}

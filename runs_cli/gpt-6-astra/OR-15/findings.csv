@@ -1,0 +1,26 @@
+USUBJID,DOMAIN,SEQ,ISSUE
+CTN-502-633-9728,CM,3,"SYNTHROID is recorded as 100 mg daily, an implausibly large levothyroxine dose; verify whether 100 micrograms (0.1 mg) was intended."
+CTN-502-744-5926,CM,1,ALEVE is recorded as 250 TABLET per dose PRN; this is implausible and suggests a dose/unit error; verify the actual tablet count and strength.
+CTN-502-633-3563,AE,4,"Complex partial seizures have AESHOSP=Y but AESER=N; hospitalization is a seriousness criterion, so reconcile the serious-event classification."
+CTN-502-633-3563,AE,5,Syncope has AESHOSP=Y but AESER=N; reconcile hospitalization and serious-event classification.
+CTN-502-854-2404,AE,9,Hypotension has AESHOSP=Y but AESER=N; reconcile hospitalization and serious-event classification.
+CTN-502-854-2404,AE,5,Benign prostatic hyperplasia has AESHOSP=Y but AESER=N; reconcile hospitalization and serious-event classification.
+CTN-502-455-5604,CM,1,"PSEUDO-CHLOR contains the strongly anticholinergic antihistamine chlorpheniramine and was taken 2014-06-05 to 2014-06-15, overlapping first dose on 2014-06-06; verify formulation and prohibited medication use."
+CTN-502-883-9858,CM,2,CORICIDIN D contains the strongly anticholinergic antihistamine chlorpheniramine and was taken 2015-06-22 to 2015-07-10 during study treatment; verify formulation and prohibited medication use.
+CTN-502-455-5604,AE,8,"HYPOKALAEMIA starts 2014-06-20, but same-day potassium is elevated at 6.2 mmol/L (LBSEQ 56), indicating hyperkalaemia; reconcile AE term and source lab result."
+CTN-502-455-3612,AE,12,"HYPONATRAEMIA starts 2014-03-22, but same-day sodium is elevated at 148 mmol/L (LBSEQ 63), indicating hypernatraemia; reconcile AE term and source lab result."
+CTN-502-647-7108,AE,4,"Ankle fracture in February 2014 conflicts with bilateral below-knee amputations in 1982 (MHSEQ 12); verify the fracture anatomy, surgical history and subject attribution."
+CTN-502-455-6444,AE,6,Ingrown toenail in February 2014 conflicts with bilateral below-knee amputations in 1978 (MHSEQ 8); verify the event and surgical history.
+CTN-502-455-6444,AE,7,"Uterine leiomyoma onset 2013-12-31 conflicts with prior total abdominal hysterectomy in 2001 (MHSEQ 9) and hysterectomy in 2009 (MHSEQ 4); verify diagnosis, onset and surgical history."
+CTN-502-775-5394,MH,11,"TURP is coded as transurethral prostatectomy, but DM records SEX=F; verify procedure, subject attribution and demographic sex."
+CTN-502-854-5064,AE,5,"Hip fracture is recorded as RECOVERED/RESOLVED on its onset date, 2014-06-30; complete fracture recovery within one day is implausible; verify diagnosis, outcome and end date."
+CTN-502-455-5604,AE,9,"Application-site erythema occurred 2014-05-26 to 2014-05-28, before first study patch on 2014-06-06 in DM and EX; verify event dates and which product caused the site reaction."
+CTN-502-633-7752,CM,5,"PREDNISONE is recorded as a 1% ophthalmic preparation; this suggests confusion with prednisolone eye drops; verify the drug name, formulation and route."
+CTN-502-744-3307,MH,12,"Face lift is dated 1931-09-19, before the subject birth date 1938-07-01; verify the procedure date and birth date."
+CTN-502-854-2404,MH,6,"Asthma onset is recorded in 1925, before the subject birth date 1931-12-26; verify onset year and birth date."
+CTN-502-455-6444,MH,4,Hysterectomy is dated September 2009 despite a total abdominal hysterectomy already recorded in 2001 (MHSEQ 9); reconcile the procedure descriptions and dates or remove a duplicate.
+CTN-502-744-5926,CM,5,"PSORCON is recorded as 0.5% (v/v), whereas the usual diflorasone topical strength is 0.05%; verify the apparent tenfold concentration discrepancy and unit."
+CTN-502-883-9858,CM,3,"DIPROLENE CREAM is recorded as 0.5%, whereas the usual betamethasone dipropionate strength is 0.05%; verify the apparent tenfold concentration discrepancy."
+CTN-502-775-7686,CM,3,"This hydrocortisone topical 1% PRN record duplicates CMSEQ 2, including route, start date 2014-06-10 and open end date; confirm whether these are distinct treatments or duplicate entries."
+CTN-502-775-9379,AE,4,Atrial fibrillation has AEOUT=NOT RECOVERED/NOT RESOLVED but an end date of 2015-01-05; clarify whether the episode ended or remained ongoing and reconcile outcome/end date.
+CTN-502-775-9379,AE,3,Atrial flutter has AEOUT=NOT RECOVERED/NOT RESOLVED but an end date of 2014-12-08; clarify whether it resolved or changed to atrial fibrillation starting that day (AESEQ 4).
